@@ -28,11 +28,11 @@ Automating cell culture has always been a challenge. As has method validation an
     - VirtualLabware_V2    
 - Sanger-Created Hamilton Libraries
     - JSONSearch (github.com/ChrisH33/JSONSearch)
-    - ParallelSway
-    - SCAP_STARplus
-    - SangerGeneral
-    - TraceArray
-    - AswStatusDialog_WSI
-    - HSLBarcodeReader_WSI
-    - HSLGetSerialNumber_WSI
-    - Hamilton Tilt Clamp Module_WSI
+    - FindDBPath (github.com/ChrisH33/FindDBPath)
+    - SCAP_STARplus (github.com/ChrisH33/SCAP_STARplus)
+    - SangerGeneral (github.com/ChrisH33/SangerGeneral)
+    - TraceArray (github.com/ChrisH33/TraceArray)
+    - AswStatusDialog_WSI (github.com/ChrisH33/AswStatusDialog_WSI)
+    - HSLBarcodeReader_WSI (github.com/ChrisH33/HSLBarcodeReader_WSI)
+    - HSLGetSerialNumber_WSI (github.com/ChrisH33/HSLGetSerialNumber_WSI)
+    - Hamilton Tilt Clamp Module_WSI (github.com/ChrisH33/Hamilton-Tilt-Clamp-Module_WSI)
