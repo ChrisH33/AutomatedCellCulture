@@ -1,0 +1,4 @@
+Source Barcode,Source Well ID,Source Labware ID,Destination Barcode,Destination Well ID,Destination Labware ID,Date,Process
+123ABC,A1,cellsNormed,I74xQn,1,AutoFlask,16/09/2024,CellSeeding
+123ABC,A1,cellsNormed,7rqNE1,1,AutoFlask,16/09/2024,CellSeeding
+123ABC,A1,cellsNormed,4D23AS,1,AutoFlask,16/09/2024,CellSeeding
