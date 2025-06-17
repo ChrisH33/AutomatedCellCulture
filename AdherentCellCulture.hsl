@@ -20,8 +20,8 @@
  namespace _Method { #include "HSLMthLib.hsl" } 
  namespace _Method { #include "HSLDeckVisualize.hsl" } 
  namespace _Method { #include "HslHamHeaterShakerLib\\HslHamHeaterShakerLib.hsl" } 
- namespace _Method { #include "WSI\\Hamilton Tilt Clamp Module_WSI\\Hamilton Tilt Clamp Module_WSI.hsl" } 
- namespace _Method { #include "WSI\\Hamilton Tilt Clamp Module_WSI\\ParallelSway.hs_" } 
+ namespace _Method { #include "WSI\\Hamilton-Tilt-Clamp-Module_WSI\\Hamilton Tilt Clamp Module_WSI.hsl" } 
+ namespace _Method { #include "WSI\\Hamilton-Tilt-Clamp-Module_WSI\\ParallelSway.hs_" } 
  namespace _Method { #include "Hamilton Media Fill Module\\HSLHamiltonMediaFillModule.hsl" } 
  namespace _Method { #include "HSL Sias Centrifuge\\SiasCentrifuge.hs_" } 
  namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
@@ -709,4 +709,4 @@ LOAD_INSTRUCTIONS::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=ch33$$valid=0$$time=2025-06-17 14:16$$checksum=2208fba3$$length=083$$
+// $$author=ch33$$valid=0$$time=2025-06-17 14:49$$checksum=2dbf5d95$$length=083$$
