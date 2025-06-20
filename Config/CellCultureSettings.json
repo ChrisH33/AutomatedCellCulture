@@ -33,8 +33,7 @@
         "celldissociationProcessCount": 2,
         "passageProcessCount": 4,
         "testingProcessCount": 4,
-        "testtransportProcessCount": 2,
-        "testpipettingProcessCount": 2
+        "testtransportProcessCount": 2
     }],
 
     "str4":[
@@ -49,7 +48,7 @@
             "incrementDest": 0,
             "4mL":[{
                 "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": 4.0, "heightRetract": 16.4, "mixCycles": 0}],
+                "aspirateStep":[{"height": 4.1, "heightRetract": 16.4, "mixCycles": 0}],
                 "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
             }],
             "1mL":[{
@@ -368,24 +367,6 @@
         "transportCORE_TiltToLoading",
         "increment_NextSet"
     ],
-    "celldissociationWorkflow": [
-        "hhsHeat_39",
-        "transportCORE_LoadingToTilt",
-        "pipettingTiltToWaste_14mL",
-        "pipettingPBSToTilt_4mL",
-        "sway_20seconds",
-        "pipettingTiltToWaste_4000uL",
-        "pipettingTrypLEToTilt_5mL",
-        "transportiSwap_TiltToHHS",
-        "hhsShake_250",
-        "timerStartHHS_1200",
-        "timerWaitFor_HHS",
-        "transportiSwap_HHSToTilt",
-        "pipettingMediaToTilt_5mL",
-        "sway_20",
-        "transportCORE_TiltToLoading",
-        "increment_NextSet"
-    ],
     "passageWorkflow": [
         "hhsHeat_38",
         "transportCORE_LoadingToTilt",
@@ -414,10 +395,6 @@
         "transportCORE_HHSToLoading",
         "increment_NextSet"
     ],
-
-
-
-
     "templateWorkflow": [
         "step_details",
         "--subWorkflow"
@@ -427,11 +404,25 @@
         "sway_20seconds",
         "pipettingTiltToWaste_4000uL"
     ],
-
-
-
-
-
+    "celldissociationWorkflow": [
+        "hhsHeat_37",
+        "transportCORE_LoadingToTilt",
+        "pipettingTiltToWaste_12mL",
+        "pipettingPBSToTilt_4mL",
+        "sway_20seconds",
+        "pipettingTiltToWaste_4000uL",
+        "pipettingTrypLEToTilt_6mL",
+        "transportCORE_TiltToHHS",
+        "hhsShake_450",
+        "timerStartHHS_120",
+        "timerWaitFor_HHS",
+        "pipettingMediaToHHS_6mL",
+        "hhsShake_450",
+        "timerStartHHS_120",
+        "timerWaitFor_HHS",
+        "transportCORE_HHSToLoading",
+        "increment_NextSet"
+    ],
     "stackedflaskprepWorkflow": [
         "transportCORE_StorageToTilt",
         "pipettingMediaToTilt_20mL",
