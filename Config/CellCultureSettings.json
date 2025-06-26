@@ -21,9 +21,10 @@
     "methodConfig": [{
         "traceLevel": 1,
         "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
-        "4mL_TipCounter": "TipCounter_4mLFiltered",
-        "1mL_TipCounter": "TipCounter_1mLFiltered",
-        "300uL_TipCounter": "TipCounter_300uLSlim",
+        "4ml_TipCounter": "TipCounter_4mLFiltered",
+        "1ml_TipCounter": "TipCounter_1mLFiltered",
+        "1000ul_TipCounter": "TipCounter_1mLFiltered",
+        "300ul_TipCounter": "TipCounter_300uLSlim",
         "platemoveProcessCount": 4,
         "mediaadditionProcessCount": 2,
         "mediaremovalProcessCount": 2,
@@ -41,6 +42,14 @@
         "       Pipetting Config         ",
         "================================"],
     "pipettingConfig": [{
+        "MediaInTiltToWaste": [{
+            "PipettingVolume": 3250, "PipettingLoops": 4, "FreshTips": false,
+            "SourceLocation": "Tilt", "SourceIncrement": true, "DestinationLocation": "Waste",
+            "TiltAngle": 10, "TiltSpeed": 10,            
+            "TipType": "4mL", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+            "AspirateHeight": 4.1, "AspirateRetract": 16.4
+        }],
+        
         "tiltToWaste": [{
             "angle": 10,
             "tiltSpeed":8,
