@@ -43,11 +43,17 @@
         "================================"],
     "pipettingConfig": [{
         "MediaInTiltToWaste": [{
-            "PipettingVolume": 3250, "PipettingLoops": 4, "FreshTips": false,
-            "SourceLocation": "Tilt", "SourceIncrement": true, "DestinationLocation": "Waste",
+            "PipettingVolume": 3250, "PipettingLoops": 4, "FreshTips": false, "TipEject": true,
             "TiltAngle": 10, "TiltSpeed": 10,            
             "TipType": "4mL", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-            "AspirateHeight": 4.1, "AspirateRetract": 16.4
+
+            "SourceLocation": "Tilt", "SourceIncrement": true,
+            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 0, "Aspirate_Retract": 0,
+            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Waste", "DestinationIncrement": false,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 0, "Dispense_Retract": 0,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
         
         "tiltToWaste": [{
