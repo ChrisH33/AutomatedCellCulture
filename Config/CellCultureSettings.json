@@ -19,7 +19,7 @@
         }]
     }],    
     "methodConfig": [{
-        "traceLevel": 2,
+        "traceLevel": 1,
         "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
         "400ul_TipCounter": "TipCounter_4mLFiltered",
         "1000ul_TipCounter": "TipCounter_1mLFiltered",
@@ -54,6 +54,9 @@
             "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
             "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
+
+
+        
         "MediaInTiltToWasteWithSlimTips": [{
             "TransferVolume": 1500, "FreshTips": false, "TipEject": true,           
             "TipType": "300", "LiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
