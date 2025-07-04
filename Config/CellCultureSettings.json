@@ -19,7 +19,7 @@
         }]
     }],    
     "methodConfig": [{
-        "traceLevel": 1,
+        "traceLevel": 2,
         "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
         "400ul_TipCounter": "TipCounter_4mLFiltered",
         "1000ul_TipCounter": "TipCounter_1mLFiltered",
@@ -97,7 +97,7 @@
             "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
         "PBSInResToTilt": [{
-            "TransferVolume": 4000, "FreshTips": false, "TipEject": false,           
+            "TransferVolume": 4000, "FreshTips": false, "TipEject": true,           
             "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
             "TiltAngle": 0, "TiltSpeed": 10, 
 
