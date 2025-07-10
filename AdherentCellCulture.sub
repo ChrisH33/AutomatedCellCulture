@@ -2696,34 +2696,31 @@ _strJsonSearch = StrConcat2(_strJSONPrefix, Translate("TransferVolume"));
 // {{{ 1065 1 0 "63d78960_99be_4aff_993bd5ff0d791b19" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
 JSONSEARCH::GetJSONEntry(Translate(""), _strJsonSearch, intTrace, __, _intTransferVolume);
 // }} ""
-// {{ 1066 1 0 "29004aa2_3825_455b_b18bb1100b160d13" "{3293659E-F71E-472f-AFB4-6A674E32B114}"
-onerror goto errLabel_717636F5FF1A417fA761D84D73E14D7B ;
-err.Clear();
+// {{{ 1066 1 0 "48f86711_2ee4_4c29_a738b3d475314df8" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+_strVarType = StrGetType(_intTransferVolume);
 // }} ""
-// {{ 1067 1 0 "2f2bc2b3_d9f1_4e11_8a250b0afc89e7ad" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+// {{ 1067 1 0 "db16ecea_285a_4ccb_94f82e2a04369fd8" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (_strVarType != "s")
+{
+// }} ""
+// {{ 1068 1 0 "bfa6b051_5af4_420d_918ea3107eaaf813" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
 if (_intTransferVolume == 0)
 {
 // }} ""
-// {{ 1068 1 0 "5c860232_55b8_4bf5_adbe35556a7cea48" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+// {{ 1069 1 0 "abf33494_d187_4c23_98bd45bdb839c889" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
 // }} ""
-// {{{ 1069 1 0 "2f6d81b8_2ef1_4e1f_8c0366398742e7bf" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+// {{{ 1070 1 0 "a7060865_a4b6_4cce_a7b6e51847142e74" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
 TRACELEVEL::Trace_02(TRACE_LEVEL_NONE, Translate("## Error with Pipetting Steps. Cannot identify "), _strJsonSearch);
 // }} ""
-// {{{ 1070 1 0 "dcc04d37_0425_4d79_ae16aa82d8e0b2a4" "{9EC997CD-FD3B-4280-811B-49E99DCF062C}"
+// {{{ 1071 1 0 "922723fe_035b_4dd8_af9ebc5551c019f5" "{9EC997CD-FD3B-4280-811B-49E99DCF062C}"
 return (1);
 // }} ""
-// {{ 1071 1 0 "2f2bc2b3_d9f1_4e11_8a250b0afc89e7ad" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+// {{ 1072 1 0 "bfa6b051_5af4_420d_918ea3107eaaf813" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
 }
 // }} ""
-// {{ 1072 1 0 "29004aa2_3825_455b_b18bb1100b160d13" "{3293659E-F71E-472f-AFB4-6A674E32B114}"
-errLabel_717636F5FF1A417fA761D84D73E14D7B : {}
-onerror goto 0;
-if (err.GetId() != 0)   /* skip handler if no error */
-{
-// }} ""
-// {{ 1073 1 0 "29004aa2_3825_455b_b18bb1100b160d13" "{3293659E-F71E-472f-AFB4-6A674E32B114}"
-}   /* end if from skip handler if no error */
+// {{ 1073 1 0 "db16ecea_285a_4ccb_94f82e2a04369fd8" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
 // }} ""
 // {{ 1074 1 0 "c8afe67d_74de_497c_999cf46d8bb69689" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
@@ -3951,7 +3948,6 @@ private variable _int;
 private variable _intLength;
 private sequence _seqDestination;
 private sequence _seqSource;
-private variable _loopCounter1;
 private variable _strLabwareID;
 private variable _intSeqStart_Dest;
 private variable _intSeqStart_Src;
@@ -9314,4 +9310,4 @@ return (0);
 }
 // }} ""
 /* {{ 2 "SubmethodInsertLine" "" */ // }} ""
-// $$author=ch33$$valid=0$$time=2025-07-04 16:08$$checksum=d2194531$$length=083$$
+// $$author=ch33$$valid=0$$time=2025-07-09 13:43$$checksum=86d6e73a$$length=083$$
