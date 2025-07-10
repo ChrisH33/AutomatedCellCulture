@@ -21,9 +21,9 @@
     "methodConfig": [{
         "traceLevel": 1,
         "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
-        "4mL_TipCounter": "TipCounter_4mLFiltered",
-        "1mL_TipCounter": "TipCounter_1mLFiltered",
-        "300uL_TipCounter": "TipCounter_300uLSlim",
+        "400ul_TipCounter": "TipCounter_4mLFiltered",
+        "1000ul_TipCounter": "TipCounter_1mLFiltered",
+        "300ul_TipCounter": "TipCounter_300uLSlim",
         "platemoveProcessCount": 4,
         "mediaadditionProcessCount": 2,
         "mediaremovalProcessCount": 2,
@@ -41,152 +41,131 @@
         "       Pipetting Config         ",
         "================================"],
     "pipettingConfig": [{
-        "tiltToWaste": [{
-            "angle": 10,
-            "tiltSpeed":8,
-            "incrementSrc": 1,
-            "incrementDest": 0,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": 4.1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 1.2, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 0.75, "heightRetract": 18.5, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+        "MediaInTiltToWaste": [{
+            "TransferVolume": 12000, "FreshTips": false, "TipEject": true,           
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+            "TiltAngle": 10, "TiltSpeed": 10, 
+
+            "SourceLocation": "Tilt", "SourceIncrement": true,
+            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 4.1, "Aspirate_Retract": 16.4,
+            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Waste", "DestinationIncrement": false,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
+            "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
-        "pbsToTilt":[{
-            "angle": 0,
-            "tiltSpeed": 8,
-            "incrementSrc": 0,
-            "incrementDest": 1,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": -1, "lLD": 1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": -1, "lLD": 1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": -1, "lLD": 1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+
+
+        
+        "MediaInTiltToWasteWithSlimTips": [{
+            "TransferVolume": 1500, "FreshTips": false, "TipEject": true,           
+            "TipType": "300", "LiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
+            "TiltAngle": 10, "TiltSpeed": 10, 
+
+            "SourceLocation": "Tilt", "SourceIncrement": true,
+            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 0.75, "Aspirate_Retract": 18.3,
+            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Waste", "DestinationIncrement": false,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
+            "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
-        "trypleToTilt":[{
-            "angle": 0,
-            "tiltSpeed": 8,
-            "incrementSrc": 0,
-            "incrementDest": 1,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": -1, "lLD": 1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": -1, "lLD": 1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": -1, "lLD": 1, "heightRetract": 16.4, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+        "PBSInTiltToWaste": [{
+            "TransferVolume": 4000, "FreshTips": false, "TipEject": true,           
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+            "TiltAngle": 10, "TiltSpeed": 10, 
+
+            "SourceLocation": "Tilt", "SourceIncrement": true,
+            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 4.1, "Aspirate_Retract": 16.4,
+            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Waste", "DestinationIncrement": false,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
+            "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
-        "mediaToTilt":[{
-            "angle": 0,
-            "tiltSpeed": 8,
-            "incrementSrc": 0,
-            "incrementDest": 1,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_MedTransfer",
-                "aspirateStep":[{"height": -1, "lLD": 2, "heightRetract": 5, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": -1, "lLD": 2, "heightRetract": 5, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": -1, "lLD": 2, "heightRetract": 5, "mixCycles": 0}],
-                "dispenseStep":[{"height": 8.5, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+
+
+
+        "MediaInResToTilt": [{
+            "TransferVolume": 5000, "FreshTips": false, "TipEject": true,
+            "TiltAngle": 0, "TiltSpeed": 10,            
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "SourceLocation": "res_Media", "SourceIncrement": false,
+            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
+            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Tilt", "DestinationIncrement": true,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
-        "tiltToHHS":[{
-            "angle": 10,
-            "tiltSpeed": 8,
-            "incrementSrc": 1,
-            "incrementDest": 1,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": 4.2, "heightRetract": 16.4, "mixCycles": 5, "mix%": 0.7}],
-                "dispenseStep":[{"height": 8.9, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 1.2, "heightRetract": 16.4, "mixCycles": 5, "mix%": 0.7}],
-                "dispenseStep":[{"height": 8.9, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 0.75, "heightRetract": 16.4, "mixCycles": 5, "mix%": 0.7}],
-                "dispenseStep":[{"height": 8.9, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+        "PBSInResToTilt": [{
+            "TransferVolume": 4000, "FreshTips": false, "TipEject": true,           
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+            "TiltAngle": 0, "TiltSpeed": 10, 
+
+            "SourceLocation": "res_PBS", "SourceIncrement": false,
+            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
+            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Tilt", "DestinationIncrement": true,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
-        "tiltToFalcon":[{
-            "angle": 10,
-            "tiltSpeed":8,
-            "incrementSrc": 1,
-            "incrementDest": 0,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": 4, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 1.2, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 1.2, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+        "TrypLEInResToTilt": [{
+            "TransferVolume": 5000, "FreshTips": false, "TipEject": true,           
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+            "TiltAngle": 0, "TiltSpeed": 10, 
+
+            "SourceLocation": "res_TrypLE", "SourceIncrement": false,
+            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
+            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Tilt", "DestinationIncrement": true,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }],
-        "mediaToHHS":[{
-            "angle": 0,
-            "tiltSpeed":8,
-            "incrementSrc": 0,
-            "incrementDest": 1,
-            "4mL":[{
-                "LC":"4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-                "aspirateStep":[{"height": 4, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "1mL":[{
-                "LC":"HighVolumeFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 1.2, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }],
-            "300uL":[{
-                "LC":"SlimTipFilter_Water_DispenseJet_Empty",
-                "aspirateStep":[{"height": 1.2, "heightRetract": 16.8, "mixCycles": 0}],
-                "dispenseStep":[{"height": 38, "heightRetract": 16.4, "mixCycles": 0}]
-            }]
+        "CellSeedingMediaFromResToTilt": [{
+            "TransferVolume": 15000, "FreshTips": false, "TipEject": true,           
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+            "TiltAngle": 0, "TiltSpeed": 10,
+
+            "SourceLocation": "res_Media", "SourceIncrement": false,
+            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
+            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "Tilt", "DestinationIncrement": true,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 15,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
+        }],
+
+
+
+        "CellsInTiltToHHS": [{
+            "TransferVolume": "intCellTransferVolume", "FreshTips": false, "TipEject": true,           
+            "TipType": "300", "LiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
+            "TiltAngle": 10, "TiltSpeed": 10, 
+
+            "SourceLocation": "Tilt", "SourceIncrement": true,
+            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 0.75, "Aspirate_Retract": 18.3,
+            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "HHS", "DestinationIncrement": true,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 15,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
+        }],
+        "MediaInResToHHS": [{
+            "TransferVolume": 5000, "FreshTips": false, "TipEject": true,
+            "TiltAngle": 0, "TiltSpeed": 10,            
+            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "SourceLocation": "res_Media", "SourceIncrement": false,
+            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
+            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
+            
+            "DestinationLocation": "HHS", "DestinationIncrement": true,
+            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
+            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
         }]
     }],
 
@@ -214,19 +193,19 @@
             "gripWidthOpen": 89,
             "offsets": [-0.2,0,5.5]
         }],
-        "4mLTipAngle": [{
+        "4000_TipAngle": [{
             "angled10Config":[56.5, -33.8, 0.7],
             "angled11Config":[56.9, -33.8, 0.5],
             "angled0Config": [51.5, -33.5, 1.4],
             "hhsConfig": [51.5, -33.5, 1.4]
         }],
-        "1mLTipAngle": [{
+        "1000_TipAngle": [{
             "angled10Config":[57.3, -33.8, 0.7],
             "angled11Config":[56.9, -33.8, 0.5],
             "angled0Config": [51.8, -33.5, 1.4],
             "hhsConfig": [51.5, -33.5, 1.4]
         }],
-        "300uLTipAngle": [{
+        "300_TipAngle": [{
             "angled10Config":[57.5, -33.8, 1.5],
             "angled11Config":[56.9, -33.8, 0.5],
             "angled0Config": [51.8, -33.5, 1.4],
@@ -242,159 +221,57 @@
 
     "approvedProcessConfig": [
         "mediachange",
-        "mediaremoval",
-        "mediaaddition",
         "cellseeding",
         "celldissociation",
-        "mediafillcellseedWorkflow",
-        "passage",
-        "testing",
-        "testtransport",
-        "testpipetting"
+        "passage"
     ],
-    "testingWorkflow": [
-        "transportCORE_LoadingToTilt",
-        "transportCORE_LoadingToHHS",
-        "hhsShake_250",
-        "pipettingTiltToWaste_14mL",
-        "pipettingTiltToWaste_2000uL",
-        "pipettingMediaToTilt_15mL",
-        "transportCORE_TiltToLoading",
-        "transportCORE_HHSToTilt",
-        "transportCORE_LoadingToHHS",
-        "hhsShake_250",
-        "pipettingTiltToWaste_14mL",
-        "pipettingTiltToWaste_2000uL",
-        "pipettingMediaToTilt_15mL",
-        "transportCORE_TiltToLoading",
-        "transportCORE_HHSToTilt",
-        "transportCORE_LoadingToHHS",
-        "pipettingTiltToWaste_14mL",
-        "pipettingTiltToWaste_2000uL",
-        "pipettingMediaToTilt_15mL",
-        "transportCORE_TiltToLoading",
-        "transportCORE_HHSToTilt",
-        "transportCORE_LoadingToHHS",
-        "hhsShake_250",
-        "pipettingTiltToWaste_14mL",
-        "pipettingTiltToWaste_2000uL",
-        "pipettingMediaToTilt_15mL",
-        "transportCORE_TiltToLoading",
-        "transportCORE_HHSToTilt",
-        "transportCORE_LoadingToHHS",
-        "hhsShake_250",
-        "increment_NextSet"
-    ],
-    "testtransportWorkflow": [
-        "transportiSwap_LoadingToHHS",
-        "transportiSwap_HHSToLoading",
-        "transportCORE_LoadingToTilt",
-        "transportCORE_TiltToHHS",
-        "transportCORE_HHSToLoading",
-        "transportCORE_LoadingToHHS",
-        "transportCORE_HHSToTilt",
-        "transportCORE_TiltToLoading",
-        "transportCORE_LoadingToCentrifuge",
-        "transportCORE_CentrifugeToTilt",
-        "transportCORE_TiltToCentrifuge",
-        "transportCORE_CentrifugeToHHS",
-        "transportCORE_HHSToCentrifuge",
-        "transportCORE_HHSToCentrifuge",
-        "transportCORE_HHSToTilt",
-        "transportCORE_CentrifugeToLoading",
-        "transportCORE_LoadingToLoading",
-        "increment_NextSet"
-    ],
-    "testpipettingWorkflow": [
-        "transportCORE_LoadingToTilt",
-        "transportCORE_LoadingToHHS",
-        "pipettingTiltToWaste_250uL",
-        "pipettingTiltToWaste_800uL",
-        "pipettingTiltToWaste_3500uL",
-        "pipettingTiltToHHS_250uL",
-        "pipettingTiltToHHS_800uL",
-        "pipettingTiltToHHS_3500uL",
-        "pipettingTiltToFalcon_250uL",
-        "pipettingTiltToFalcon_800uL",
-        "pipettingTiltToFalcon_3500uL",
-        "pipettingMediaToTilt_250uL",
-        "pipettingMediaToTilt_800uL",
-        "pipettingMediaToTilt_3500uL",
-        "pipettingTrypLEToTilt_250uL",
-        "pipettingTrypLEToTilt_800uL",
-        "pipettingTrypLEToTilt_3500uL",
-        "pipettingPBSToTilt_250uL",
-        "pipettingPBSToTilt_800uL",
-        "pipettingPBSToTilt_3500uL",
-        "pipettingFalconToTilt_250uL",
-        "pipettingFalconToTilt_800uL",
-        "pipettingFalconToTilt_3500uL",
-        "increment_NextSet"
-    ],
+
     "mediachangeWorkflow": [
         "transportCORE_LoadingToTilt",
-        "pipettingTiltToWaste_15mL",
-        "pipettingMediaToTilt_15mL",
-        "transportCORE_TiltToLoading",
-        "increment_NextSet"
-    ],
-    "mediaremovalWorkflow": [
-        "transportCORE_LoadingToTilt",
-        "pipettingTiltToWaste_15mL",
-        "transportCORE_TiltToLoading",
-        "increment_NextSet"
-    ],
-    "mediaadditionWorkflow": [
-        "transportCORE_LoadingToTilt",
-        "pipettingMediaToTilt_15mL",
-        "transportCORE_TiltToLoading",
-        "increment_NextSet"
-    ],
-    "cellseedingWorkflow": [
-        "transportCORE_LoadingToTilt",        
-        "cellDilutionCalc_CellVol",
-        "pipettingTiltToWaste_CellVoluL",
-        "pipettingNormedCellsToTilt_CellVoluL",
-        "sway_60seconds",
-        "transportCORE_TiltToLoading",
-        "increment_NextSet"
-    ], 
-    "mediafillcellseedWorkflow": [
-        "transportCORE_LoadingToTilt",
-        "cellDilutionCalc_CellVol",
-        "pipettingMediaToTilt_15mL",
-        "pipettingNormedCellsToTilt_CellVol",
+        "pipetting_MediaInTiltToWaste",
+        "pipetting_MediaInResToTilt",
         "transportCORE_TiltToLoading",
         "increment_NextSet"
     ],
     "passageWorkflow": [
         "hhsHeat_38",
         "transportCORE_LoadingToTilt",
-        "pipettingTiltToWaste_14mL",
-        "pipettingTiltToWaste_2000uL",
-        "pipettingTrypLEToTilt_5mL",
+
+        "pipetting_MediaInTiltToWaste",
+        "pipetting_PBSInResToTilt",
+        "sway_15seconds",
+        "pipetting_PBSInTiltToWaste",
+        "pipetting_MediaInTiltToWasteWithSlimTips",
+
+        "pipetting_TrypLEInResToTilt",
         "transportCORE_TiltToHHS",
         "hhsShake_400",
         "timerStartHHS_420",
+
         "transportCORE_LoadingToTilt",
         "cellDilutionCalc_CellVol",
-        "pipettingCellMediaToTilt_15mL",
+        "pipetting_CellSeedingMediaFromResToTilt",
         "transportCORE_TiltToLoading",
+
         "timerWaitFor_HHS",
-        "pipettingMediaToHHS_5mL",
-        "hhsShake_400",
+        "pipetting_MediaInResToHHS",
+        "hhsShake_500",
         "timerStartHHS_15",
         "timerWaitFor_HHS",
+        
         "transportCORE_HHSToTilt",
         "transportCORE_LoadingToHHS",
-        "pipettingTiltToHHS_CellVol",
+        "pipetting_CellsInTiltToHHS",
         "hhsShake_400",
         "timerStartHHS_20",
+        
         "transportCORE_TiltToLoading",
         "timerWaitFor_HHS",
         "transportCORE_HHSToLoading",
         "increment_NextSet"
     ],
+
+
     "templateWorkflow": [
         "step_details",
         "--subWorkflow"
@@ -403,30 +280,5 @@
         "pipettingPBSToTilt_4mL",
         "sway_20seconds",
         "pipettingTiltToWaste_4000uL"
-    ],
-    "celldissociationWorkflow": [
-        "hhsHeat_37",
-        "transportCORE_LoadingToTilt",
-        "pipettingTiltToWaste_12mL",
-        "pipettingPBSToTilt_4mL",
-        "sway_20seconds",
-        "pipettingTiltToWaste_4000uL",
-        "pipettingTrypLEToTilt_6mL",
-        "transportCORE_TiltToHHS",
-        "hhsShake_450",
-        "timerStartHHS_120",
-        "timerWaitFor_HHS",
-        "pipettingMediaToHHS_6mL",
-        "hhsShake_450",
-        "timerStartHHS_120",
-        "timerWaitFor_HHS",
-        "transportCORE_HHSToLoading",
-        "increment_NextSet"
-    ],
-    "stackedflaskprepWorkflow": [
-        "transportCORE_StorageToTilt",
-        "pipettingMediaToTilt_20mL",
-        "transportCORE_TiltToStacked",
-        "increment_NextSet"
     ]
 }
