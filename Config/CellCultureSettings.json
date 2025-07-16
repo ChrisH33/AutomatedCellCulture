@@ -58,7 +58,7 @@
 
         
         "MediaInTiltToWasteWithSlimTips": [{
-            "TransferVolume": 1500, "FreshTips": false, "TipEject": true,           
+            "TransferVolume": 2300, "FreshTips": false, "TipEject": true,           
             "TipType": "300", "LiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
             "TiltAngle": 10, "TiltSpeed": 10, 
 
@@ -87,7 +87,7 @@
 
 
         "MediaInResToTilt": [{
-            "TransferVolume": 5000, "FreshTips": false, "TipEject": true,
+            "TransferVolume": 12000, "FreshTips": false, "TipEject": true,
             "TiltAngle": 0, "TiltSpeed": 10,            
             "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
 
@@ -183,15 +183,15 @@
         "unusedConfigSettings": "gripForce, gripSpeed, zSpeedGet, xAcceleration, zSpeedPlace, tolerance",
         "iswapConfig": [{
             "gripHeight": 8,
-            "gripWidth": 82,
-            "gripWidthOpen": 89,
+            "gripWidth": 81,
+            "gripWidthOpen": 87,
             "offsets": [-0.2,0,0.5]
         }],
         "coreConfig": [{
-            "gripHeight": 10.3,
-            "gripWidth": 82,
-            "gripWidthOpen": 89,
-            "offsets": [-0.2,0,5.5]
+            "gripHeight": 7.4,
+            "gripWidth": 80.5,
+            "gripWidthOpen": 87,
+            "offsets": [-0.5,0,5.5]
         }],
         "4000_TipAngle": [{
             "angled10Config":[56.5, -33.8, 0.7],
@@ -230,6 +230,7 @@
         "transportCORE_LoadingToTilt",
         "pipetting_MediaInTiltToWaste",
         "pipetting_MediaInResToTilt",
+        "sway_15seconds",
         "transportCORE_TiltToLoading",
         "increment_NextSet"
     ],
@@ -246,7 +247,7 @@
         "pipetting_TrypLEInResToTilt",
         "transportCORE_TiltToHHS",
         "hhsShake_400",
-        "timerStartHHS_420",
+        "timerStartHHS_600",
 
         "transportCORE_LoadingToTilt",
         "cellDilutionCalc_CellVol",
