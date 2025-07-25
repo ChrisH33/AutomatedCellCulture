@@ -247,7 +247,7 @@
         "pipetting_TrypLEInResToTilt",
         "transportCORE_TiltToHHS",
         "hhsShake_400",
-        "timerStartHHS_600",
+        "timerStartHHS_900",
 
         "transportCORE_LoadingToTilt",
         "cellDilutionCalc_CellVol",
