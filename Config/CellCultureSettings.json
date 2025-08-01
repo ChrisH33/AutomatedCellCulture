@@ -19,7 +19,7 @@
         }]
     }],    
     "methodConfig": [{
-        "traceLevel": 1,
+        "traceLevel": 2,
         "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
         "400ul_TipCounter": "TipCounter_4mLFiltered",
         "1000ul_TipCounter": "TipCounter_1mLFiltered",
@@ -36,6 +36,7 @@
         "testtransportProcessCount": 2
     }],
 
+<<<<<<< Updated upstream
     "str4":[
         "================================",
         "       Pipetting Config         ",
@@ -169,6 +170,8 @@
         }]
     }],
 
+=======
+>>>>>>> Stashed changes
     "str3":[
         "================================",
         "        Labware Config          ",
@@ -213,7 +216,6 @@
         }]
     }],
     
-    
     "str1":[
     "================================",
     "          Workflows             ",
@@ -223,7 +225,9 @@
         "mediachange",
         "cellseeding",
         "celldissociation",
-        "passage"
+        "passage",
+        "Centrifuge_Testing",
+        "day 13 - passage"
     ],
 
     "mediachangeWorkflow": [
@@ -270,15 +274,52 @@
         "transportCORE_HHSToLoading",
         "increment_NextSet"
     ],
-
-
-    "templateWorkflow": [
-        "step_details",
-        "--subWorkflow"
+    
+    "Day 15 - Pellet": [],
+    "day 13 - passage": [
+        "hhsHeat_38",
+        "transport_2-Loading-Tilt",
+        "pipetting_Media-Tilt-Waste",
+        "pipetting_Media-Tilt-Waste-Slim",
+        "pipetting_PBS-Res-Tilt",
+        "sway_15seconds",
+        "pipetting_PBS-Tilt-Waste",
+        "pipetting_Media-Tilt-Waste-Slim",
+        "pipetting_TrypLE-Res-Tilt",
+        "transport_2-Tilt-HHS",
+        "hhsShake_245",
+        "timerStartHHS_900",
+        "transport_2-Loading-Tilt",
+        "cellDilutionCalc_CellVol",
+        "pipetting_CellMedia-Res-Tilt",
+        "transport_2-Tilt-Loading",
+        "timerWaitFor_HHS",
+        "pipetting_Media-Res-HHS",
+        "hhsShake_500",
+        "timerStartHHS_15",
+        "timerWaitFor_HHS",
+        "transport_2-HHS-Tilt",
+        "transport_2-Loading-HHS",
+        "pipetting_Cells-Tilt-HHS",
+        "hhsShake_245",
+        "timerStartHHS_20",
+        "transport_2-Tilt-Loading",
+        "timerWaitFor_HHS",
+        "transport_2-HHS-Loading",
+        "increment_NextSet"
     ],
-    "pbsWashSubWorkflow": [
-        "pipettingPBSToTilt_4mL",
-        "sway_20seconds",
-        "pipettingTiltToWaste_4000uL"
+    "Day 11 - Passage": [],
+    "Day 9 - Passage": [],
+    "Day 7 - Passage & Pellet": [],
+    "Day 5 - Passage": [],
+    "Day 4 - Pellet": [],
+    "Day 3 - Expansion": [
+        "One cell suspension into two flasks",
+        "transportCORE_LoadingToTilt - two flasks",
+        "cellDilutionCalc_CellVol",
+        "pipetting_CellSeedingMediaFromResToTilt",
+        "pipetting cells from falcon to tilt",
+        "transportCORE_TiltToLoading"
     ]
+
 }
