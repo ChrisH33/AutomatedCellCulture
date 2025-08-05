@@ -267,5 +267,13 @@
             "Dispense_MixCycles": 0,
             "Dispense_MixVolume": 0
         }
+    ],
+    "centrifugeSpin_Cells": [
+        {
+            "SpinSpeed": 600,
+            "SpinTime": 120,
+            "SpinAcceleration": 100 
+        }
     ]
 }
+
