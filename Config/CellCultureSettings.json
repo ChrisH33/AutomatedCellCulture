@@ -22,10 +22,10 @@
     "methodConfig": [{
         "traceLevel": 2,
         "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
-        "400ul_TipCounter": "TipCounter_4mLFiltered",
-        "1000ul_TipCounter": "TipCounter_1mLFiltered",
-        "300ul_TipCounter": "TipCounter_300uLSlim",
-        "platemoveProcessCount": 4,
+        "4000uL_TipCounter": "TipCounter_4mLFiltered",
+        "1000uL_TipCounter": "TipCounter_1mLFiltered",
+        "300uL_TipCounter": "TipCounter_300uLSlim",
+        "day 13 - passageProcessCount": 4,
         "mediaadditionProcessCount": 2,
         "mediaremovalProcessCount": 2,
         "mediachangeProcessCount": 2,
@@ -36,140 +36,6 @@
         "testingProcessCount": 4,
         "testtransportProcessCount": 2
     }],
-
-    "str4":[
-        "================================",
-        "       Pipetting Config         ",
-        "================================"],
-    "pipettingConfig": [{
-        "MediaInTiltToWaste": [{
-            "TransferVolume": 12000, "FreshTips": false, "TipEject": true,           
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-            "TiltAngle": 10, "TiltSpeed": 10, 
-
-            "SourceLocation": "Tilt", "SourceIncrement": true,
-            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 4.1, "Aspirate_Retract": 16.4,
-            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Waste", "DestinationIncrement": false,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
-            "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-
-
-        
-        "MediaInTiltToWasteWithSlimTips": [{
-            "TransferVolume": 2300, "FreshTips": false, "TipEject": true,           
-            "TipType": "300", "LiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
-            "TiltAngle": 10, "TiltSpeed": 10, 
-
-            "SourceLocation": "Tilt", "SourceIncrement": true,
-            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 0.75, "Aspirate_Retract": 18.3,
-            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Waste", "DestinationIncrement": false,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
-            "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-        "PBSInTiltToWaste": [{
-            "TransferVolume": 4000, "FreshTips": false, "TipEject": true,           
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-            "TiltAngle": 10, "TiltSpeed": 10, 
-
-            "SourceLocation": "Tilt", "SourceIncrement": true,
-            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 4.1, "Aspirate_Retract": 16.4,
-            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Waste", "DestinationIncrement": false,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 32, "Dispense_Retract": 2,
-            "Dispense_Following": 1, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-
-
-
-        "MediaInResToTilt": [{
-            "TransferVolume": 12000, "FreshTips": false, "TipEject": true,
-            "TiltAngle": 0, "TiltSpeed": 10,            
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-
-            "SourceLocation": "res_Media", "SourceIncrement": false,
-            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
-            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Tilt", "DestinationIncrement": true,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
-            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-        "PBSInResToTilt": [{
-            "TransferVolume": 4000, "FreshTips": false, "TipEject": true,           
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-            "TiltAngle": 0, "TiltSpeed": 10, 
-
-            "SourceLocation": "res_PBS", "SourceIncrement": false,
-            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
-            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Tilt", "DestinationIncrement": true,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
-            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-        "TrypLEInResToTilt": [{
-            "TransferVolume": 5000, "FreshTips": false, "TipEject": true,           
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-            "TiltAngle": 0, "TiltSpeed": 10, 
-
-            "SourceLocation": "res_TrypLE", "SourceIncrement": false,
-            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
-            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Tilt", "DestinationIncrement": true,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
-            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-        "CellSeedingMediaFromResToTilt": [{
-            "TransferVolume": 15000, "FreshTips": false, "TipEject": true,           
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-            "TiltAngle": 0, "TiltSpeed": 10,
-
-            "SourceLocation": "res_Media", "SourceIncrement": false,
-            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
-            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "Tilt", "DestinationIncrement": true,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 15,
-            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-
-
-
-        "CellsInTiltToHHS": [{
-            "TransferVolume": "intCellTransferVolume", "FreshTips": false, "TipEject": true,           
-            "TipType": "300", "LiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
-            "TiltAngle": 10, "TiltSpeed": 10, 
-
-            "SourceLocation": "Tilt", "SourceIncrement": true,
-            "Aspirate_LLD": 0, "Aspirate_Submerge": 0, "Aspirate_Height": 0.75, "Aspirate_Retract": 18.3,
-            "Aspirate_Following": 0, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "HHS", "DestinationIncrement": true,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 15,
-            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }],
-        "MediaInResToHHS": [{
-            "TransferVolume": 5000, "FreshTips": false, "TipEject": true,
-            "TiltAngle": 0, "TiltSpeed": 10,            
-            "TipType": "4000", "LiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
-
-            "SourceLocation": "res_Media", "SourceIncrement": false,
-            "Aspirate_LLD": 5, "Aspirate_Submerge": 5, "Aspirate_Height": 0, "Aspirate_Retract": 0,
-            "Aspirate_Following": 1, "Aspirate_MixCycles": 0, "Aspirate_MixVolume": 0,
-            
-            "DestinationLocation": "HHS", "DestinationIncrement": true,
-            "Dispense_LLD": 0, "Dispense_Submerge": 0, "Dispense_Height": 8.5, "Dispense_Retract": 16.4,
-            "Dispense_Following": 0, "Dispense_MixCycles": 0, "Dispense_MixVolume": 0
-        }]
-    }],
-
     "str3":[
         "================================",
         "        Labware Config          ",
@@ -225,7 +91,8 @@
         "cellseeding",
         "celldissociation",
         "passage",
-        "centrifugetest"
+        "centrifugetest",
+        "day 13 - passage"
     ],
 
     "mediachange": [
@@ -237,20 +104,26 @@
         "increment_NextSet"
     ],
 
-    "passage": [
+    "day 13 - passage": [
         "hhsHeat_38",
-        "transportCORE_LoadingToTilt",
-
-        "pipetting_MediaInTiltToWaste",
-        "pipetting_PBSInResToTilt",
+        "transport_2-Loading-Tilt",
+        "pipetting_12000-Media-Tilt-Waste",
+        "pipetting_2300-Media-Tilt-Waste",
+        "pipetting_4000-PBS-Res-Tilt",
         "sway_15seconds",
-        "pipetting_PBSInTiltToWaste",
-        "pipetting_MediaInTiltToWasteWithSlimTips",
-
-        "pipetting_TrypLEInResToTilt",
-        "transportCORE_TiltToHHS",
+        "pipetting_4000-PBS-Tilt-Waste",
+        "pipetting_2300-Media-Tilt-Waste",
+        "pipetting_5000-TrypLE-Res-Tilt",
+        "transport_2-Tilt-HHS",
         "hhsShake_400",
         "timerStartHHS_900",
+        "timerWaitFor_HHS",
+        "transport_2-HHS-Loading",
+        "increment_NextSet"
+    ],
+
+    "passage": [
+
 
         "transportCORE_LoadingToTilt",
         "cellDilutionCalc_CellVol",

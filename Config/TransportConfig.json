@@ -6,7 +6,7 @@
     ],
     "2-Loading-Tilt": [
         {
-            "blnToolType": 5,
+            "blnToolType": 1,
             "blnParkAfterUse": false,
             "intThroughput": 2,
             "blnCheckOnPickup": false,
