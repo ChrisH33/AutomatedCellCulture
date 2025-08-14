@@ -96,12 +96,11 @@
     ],
 
     "mediachange": [
-        "transportCORE_LoadingToTilt",
-        "pipetting_MediaInTiltToWaste",
-        "pipetting_MediaInResToTilt",
-        "sway_15seconds",
-        "transportCORE_TiltToLoading",
+        "transport_2-Loading-Tilt",
+        "pipetting_1200-CellMix-Tilt-DWP",
+        "transport_2-Tilt-Loading",
         "increment_NextSet"
+        
     ],
 
     "day 13 - passage": [
@@ -115,16 +114,14 @@
         "pipetting_2300-Media-Tilt-Waste",
         "pipetting_5000-TrypLE-Res-Tilt",
         "transport_2-Tilt-HHS",
-        "hhsShake_400",
-        "timerStartHHS_900",
+        "hhsShake_250",
+        "timerStartHHS_60",
         "timerWaitFor_HHS",
         "transport_2-HHS-Loading",
         "increment_NextSet"
     ],
 
     "passage": [
-
-
         "transportCORE_LoadingToTilt",
         "cellDilutionCalc_CellVol",
         "pipetting_CellSeedingMediaFromResToTilt",
