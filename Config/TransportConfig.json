@@ -1,0 +1,107 @@
+{
+    "str1": [
+        "================================",
+        "        Transport Config        ",
+        "================================"
+    ],
+    "2-Loading-Tilt": [
+        {
+            "blnToolType": 1,
+            "blnParkAfterUse": true,
+            "intThroughput": 2,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Loading",
+            "strDestination": "AutoFlask_Tilt"
+        }
+    ],
+    "2-Tilt-Loading": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 2,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Tilt",
+            "strDestination": "AutoFlask_Loading"
+        }
+    ],
+    "2-Tilt-HHS": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 2,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Tilt",
+            "strDestination": "AutoFlask_HHS"
+        }
+    ],
+    "2-HHS-Tilt": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 2,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_HHS",
+            "strDestination": "AutoFlask_Tilt"
+        }
+    ],
+    "2-Loading-HHS": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 2,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Loading",
+            "strDestination": "AutoFlask_HHS"
+        }
+    ],
+    "2-HHS-Loading": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": true,
+            "intThroughput": 2,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_HHS",
+            "strDestination": "AutoFlask_Loading"
+        }
+    ],
+    "1-Loading-Centrifuge": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 1,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Loading",
+            "strDestination": "Greiner_AutoFlask_Centrifuge_0001"
+        }
+    ],
+    "1-Loading-CentrifugeTwo": [
+        {
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 1,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Loading",
+            "strDestination": "Greiner_AutoFlask_Centrifuge_0002"
+        }
+    ],
+    "str2": [
+        "================================",
+        "        Transport Guide         ",
+        "================================"
+    ],
+    "ExampleStep": [
+        {
+            "blnToolType - Guide": "false = iSwap, true = CORE",
+            "blnParkAfterUse - Guide": "false = no park/eject, true = park/eject",
+            "intThroughput - Guide": "Number of labware to transport"
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "str4": [
+        "================================",
+        "       Pipetting Config         ",
+        "================================"
+    ],
+    "12000-Media-Tilt-Waste": [
+        {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 12000,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "AutoFlask_Tilt",
+            "blnSourceIncrement": true,
+            "intAspirateLLD": 0,
+            "intAspirateSubmerge": 0,
+            "intAspirateHeight": 0.75,
+            "intAspirateRetract": 18.3,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 0,
+            "intAspirateMixVolume": 0,
+
+            "str4": "===== Destination =====",
+            "strDestination": "Waste",
+            "blnDestinationIncrement": false,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 32,
+            "intDispenseRetract": 2,
+            "blnDispenseFollowing": 1,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "12000-Media-Res-Tilt": [
+        {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 12000,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "res_Media",
+            "blnSourceIncrement": false,
+            "intAspirateLLD": 5,
+            "intAspirateSubmerge": 2,
+            "intAspirateHeight": 0,
+            "intAspirateRetract": 5,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 1,
+            "intAspirateMixVolume": 3000,
+
+            "str4": "===== Destination =====",
+            "strDestination": "AutoFlask_Tilt",
+            "blnDestinationIncrement": true,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 8.5,
+            "intDispenseRetract": 16.4,
+            "blnDispenseFollowing": 0,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "2300-Media-Tilt-Waste": [
+        {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 2300,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 300,
+            "strLiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
+
+            "str3": "===== Source =====",
+            "strSource": "AutoFlask_Tilt",
+            "blnSourceIncrement": true,
+            "intAspirateLLD": 0,
+            "intAspirateSubmerge": 0,
+            "intAspirateHeight": 0.6,
+            "intAspirateRetract": 18.3,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 0,
+            "intAspirateMixVolume": 0,
+
+            "str4": "===== Destination =====",
+            "strDestination": "Waste",
+            "blnDestinationIncrement": false,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 32,
+            "intDispenseRetract": 2,
+            "blnDispenseFollowing": 1,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "4000-PBS-Tilt-Waste": [
+        {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 4000,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "AutoFlask_Tilt",
+            "blnSourceIncrement": true,
+            "intAspirateLLD": 0,
+            "intAspirateSubmerge": 0,
+            "intAspirateHeight": 4.1,
+            "intAspirateRetract": 16.4,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 0,
+            "intAspirateMixVolume": 0,
+
+            "str4": "===== Destination =====",
+            "strDestination": "Waste",
+            "blnDestinationIncrement": false,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 32,
+            "intDispenseRetract": 2,
+            "blnDispenseFollowing": 1,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "4000-PBS-Res-Tilt": [
+        {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 4000,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "res_PBS",
+            "blnSourceIncrement": false,
+            "intAspirateLLD": 5,
+            "intAspirateSubmerge": 2,
+            "intAspirateHeight": 0,
+            "intAspirateRetract": 1,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 1,
+            "intAspirateMixVolume": 4000,
+
+            "str4": "===== Destination =====",
+            "strDestination": "AutoFlask_Tilt",
+            "blnDestinationIncrement": true,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 8.5,
+            "intDispenseRetract": 16.4,
+            "blnDispenseFollowing": 0,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "5000-TrypLE-Res-Tilt": [
+            {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 5000,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "res_TrypLE",
+            "blnSourceIncrement": false,
+            "intAspirateLLD": 5,
+            "intAspirateSubmerge": 2,
+            "intAspirateHeight": 0,
+            "intAspirateRetract": 1,
+            "blnAspirateFollowing": 1,
+            "intAspirateMixCycles": 1,
+            "intAspirateMixVolume": 2500,
+
+            "str4": "===== Destination =====",
+            "strDestination": "AutoFlask_Tilt",
+            "blnDestinationIncrement": true,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 8.5,
+            "intDispenseRetract":16.4,
+            "blnDispenseFollowing": 0,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "1200-CellMix-Tilt-DWP": [
+            {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 1200,
+            "blnFreshTipsPerPipette": true,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "AutoFlask_Tilt",
+            "blnSourceIncrement": false,
+            "intAspirateLLD": 0,
+            "intAspirateSubmerge": 0,
+            "intAspirateHeight": 4.1,
+            "intAspirateRetract": 16.4,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 1,
+            "intAspirateMixVolume": 3000,
+
+            "str4": "===== Destination =====",
+            "strDestination": "DWP_PairedPositions",
+            "blnDestinationIncrement": true,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 5,
+            "intDispenseRetract": 5,
+            "blnDispenseFollowing": 1,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
+    "centrifugeSpin_Cells": [
+        {
+            "SpinSpeed": 600,
+            "SpinTime": 120,
+            "SpinAcceleration": 100 
+        }
+    ]
+}
+

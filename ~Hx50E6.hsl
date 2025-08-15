@@ -26,7 +26,7 @@
  namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
  namespace _Method { #include "Load Instructions (All)\\load_instructions\\load_instructions.hs_" } 
  namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifuge.hsl" } 
-#include "AdherentCellCulture.res"
+#include "~Re4FAC.res"
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 variable blnTestingMode;
 variable blnScaps_State;
@@ -740,4 +740,4 @@ LOAD_INSTRUCTIONS::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=ch33$$valid=0$$time=2025-08-15 15:50$$checksum=374b824c$$length=083$$
+// $$author=ta16$$valid=0$$time=2025-08-05 15:04$$checksum=696745bd$$length=083$$
