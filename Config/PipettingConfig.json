@@ -228,6 +228,38 @@
             "intDispenseMixVolume": 0
         }
     ],
+    "5000-Media-Res-HHS": [
+            {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 5000,
+            "blnFreshTipsPerPipette": false,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 4000,
+            "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
+
+            "str3": "===== Source =====",
+            "strSource": "res_Media",
+            "blnSourceIncrement": false,
+            "intAspirateLLD": 5,
+            "intAspirateSubmerge": 2,
+            "intAspirateHeight": 0,
+            "intAspirateRetract": 1,
+            "blnAspirateFollowing": 1,
+            "intAspirateMixCycles": 1,
+            "intAspirateMixVolume": 2500,
+
+            "str4": "===== Destination =====",
+            "strDestination": "AutoFlask_HHS",
+            "blnDestinationIncrement": true,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 8.5,
+            "intDispenseRetract":16.4,
+            "blnDispenseFollowing": 0,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
     "centrifugeSpin_Cells": [
         {
             "SpinSpeed": 600,

@@ -13,7 +13,11 @@
         "kennyTimeout": 2,
         "tiltCount": 2,
         "hhsCount": 2,
-        "centrifugeID": 121
+        "centrifugeID": 121,
+        "inverseGrips": [{
+            "source": [],
+            "destination": []
+        }]
     }],    
     "methodConfig": [{
         "traceLevel": 2,
@@ -57,7 +61,7 @@
             "offsets": [-0.5,0,5.5]
         }],
         "4000_TipAngle": [{
-            "angled10Config":[56.5, -33.8, 0.9],
+            "angled10Config":[56.5, -33.8, 1.4],
             "angled11Config":[56.9, -33.8, 0.5],
             "angled0Config": [51.5, -33.5, 1.4],
             "hhsConfig": [51.5, -33.5, 1.4]
@@ -84,6 +88,8 @@
 
     "approvedProcessConfig": [
         "mediachange",
+        "cellseeding",
+        "celldissociation",
         "passage",
         "centrifugetest",
         "day 13 - passage"
@@ -91,17 +97,17 @@
 
     "mediachange": [
         "transport_2-Loading-Tilt",
-        "pipetting_12000-Media-Tilt-Waste",
-        "pipetting_12000-Media-Res-Tilt",
+        "pipetting_1200-CellMix-Tilt-DWP",
         "transport_2-Tilt-Loading",
         "increment_NextSet"
+        
     ],
 
     "day 13 - passage": [
         "hhsHeat_38",
         "transport_2-Loading-Tilt",
         "pipetting_12000-Media-Tilt-Waste",
-        "pipetting_2300-Media-Res-Tilt",
+        "pipetting_2300-Media-Tilt-Waste",
         "pipetting_4000-PBS-Res-Tilt",
         "sway_15seconds",
         "pipetting_4000-PBS-Tilt-Waste",
@@ -112,38 +118,37 @@
         "timerStartHHS_600",
         "timerWaitFor_HHS",
         "pipetting_5000-Media-Res-HHS",
+        "hhsShake_250",
+        "timerStartHHS_15",
+        "timerWaitFor_HHS",
         "transport_2-HHS-Tilt",
-        "sway_15seconds",
-        "transport_2-Loading-HHS",
-        "pipetting_CellMix_Tilt_HHS",
-        "pipetting_RestOfMedia_Res_HHS",
+        "sway_20seconds",
+        "pipetting_1200-CellMix-Tilt-DWP",
         "transport_2-Tilt-Loading",
-        "transport_2-HHS-Loading",
         "increment_NextSet"
     ],
 
     "passage": [
-        "hhsHeat_38",
-        "transport_2-Loading-Tilt",
-        "pipetting_12000-Media-Tilt-Waste",
-        "pipetting_2300-Media-Res-Tilt",
-        "pipetting_4000-PBS-Res-Tilt",
-        "sway_15seconds",
-        "pipetting_4000-PBS-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_5000-TrypLE-Res-Tilt",
-        "transport_2-Tilt-HHS",
-        "hhsShake_250",
-        "timerStartHHS_600",
+        "transportCORE_LoadingToTilt",
+        "cellDilutionCalc_CellVol",
+        "pipetting_CellSeedingMediaFromResToTilt",
+        "transportCORE_TiltToLoading",
+
         "timerWaitFor_HHS",
-        "pipetting_5000-Media-Res-HHS",
-        "transport_2-HHS-Tilt",
-        "sway_15seconds",
-        "transport_2-Loading-HHS",
-        "pipetting_CellMix_Tilt_HHS",
-        "pipetting_RestOfMedia_Res_HHS",
-        "transport_2-Tilt-Loading",
-        "transport_2-HHS-Loading",
+        "pipetting_MediaInResToHHS",
+        "hhsShake_500",
+        "timerStartHHS_15",
+        "timerWaitFor_HHS",
+        
+        "transportCORE_HHSToTilt",
+        "transportCORE_LoadingToHHS",
+        "pipetting_CellsInTiltToHHS",
+        "hhsShake_400",
+        "timerStartHHS_20",
+        
+        "transportCORE_TiltToLoading",
+        "timerWaitFor_HHS",
+        "transportCORE_HHSToLoading",
         "increment_NextSet"
     ],
 
@@ -151,5 +156,15 @@
         "centrifugePresent_1",
         "centrifugePresent_2",
         "centrifugeSpin_Cells"
+    ],
+
+    "templateWorkflow": [
+        "step_details",
+        "--subWorkflow"
+    ],
+    "pbsWashSubWorkflow": [
+        "pipettingPBSToTilt_4mL",
+        "sway_20seconds",
+        "pipettingTiltToWaste_4000uL"
     ]
 }
