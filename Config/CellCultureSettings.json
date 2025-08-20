@@ -1,88 +1,149 @@
-{    
-    "str2":[
+{
+    "str2": [
         "================================",
         "       Instrument Config        ",
-        "================================"],
-    "starPlusConfig": [{
-        "channelForCOREGrips": 4,
-        "scapComports": [9, 10],
-        "kennyComport": "COM8",
-        "tiltClampComport": 0,
-        "mediaComport": 5,
-        "fanSpeed": 0,
-        "kennyTimeout": 2,
-        "tiltCount": 2,
-        "hhsCount": 2,
-        "centrifugeID": 121,
-        "inverseGrips": [{
-            "source": [],
-            "destination": []
-        }]
-    }],    
-    "methodConfig": [{
-        "traceLevel": 2,
-        "traceLevelGuide" : "0 = None, 1 = Release, 2 = Debug",
-        "4000uL_TipCounter": "TipCounter_4mLFiltered",
-        "1000uL_TipCounter": "TipCounter_1mLFiltered",
-        "300uL_TipCounter": "TipCounter_300uLSlim",
-        "day 13 - passageProcessCount": 4,
-        "mediaadditionProcessCount": 2,
-        "mediaremovalProcessCount": 2,
-        "mediachangeProcessCount": 2,
-        "cellseedingProcessCount": 2,
-        "mediafillcellseedProcessCount": 2,
-        "celldissociationProcessCount": 2,
-        "passageProcessCount": 4,
-        "testingProcessCount": 4,
-        "testtransportProcessCount": 2
-    }],
-    "str3":[
+        "================================"
+    ],
+    "starPlusConfig": [
+        {
+            "channelForCOREGrips": 4,
+            "scapComports": [
+                9,
+                10
+            ],
+            "kennyComport": "COM8",
+            "tiltClampComport": 0,
+            "mediaComport": 5,
+            "fanSpeed": 0,
+            "kennyTimeout": 2,
+            "tiltCount": 2,
+            "hhsCount": 2,
+            "centrifugeID": 121
+        }
+    ],
+    "methodConfig": [
+        {
+            "traceLevel": 1,
+            "traceLevelGuide": "0 = None, 1 = Release, 2 = Debug",
+            "4000uL_TipCounter": "TipCounter_4mLFiltered",
+            "1000uL_TipCounter": "TipCounter_1mLFiltered",
+            "300uL_TipCounter": "TipCounter_300uLSlim",
+            "day 13 - passageProcessCount": 4,
+            "mediaadditionProcessCount": 2,
+            "mediaremovalProcessCount": 2,
+            "mediachangeProcessCount": 2,
+            "cellseedingProcessCount": 2,
+            "mediafillcellseedProcessCount": 2,
+            "celldissociationProcessCount": 2,
+            "passageProcessCount": 4,
+            "testingProcessCount": 4,
+            "testtransportProcessCount": 2
+        }
+    ],
+    "str3": [
         "================================",
         "        Labware Config          ",
-        "================================"],
-    "autoflaskConfig": [{
-        "hhsConfig":[{
-            "shakingDirection": 0,
-            "shakingAccRamp": 630,
-            "shakingDirection_Guide": "0 = clockwise (default), 1 = counter-clockwise",
-            "shakingAccRamp_Guide": "Acceleration ramp 630 - 12500 (1250 default)"
-        }],
-        "unusedConfigSettings": "gripForce, gripSpeed, zSpeedGet, xAcceleration, zSpeedPlace, tolerance",
-        "iswapConfig": [{
-            "gripHeight": 8,
-            "gripWidth": 81,
-            "gripWidthOpen": 87,
-            "offsets": [-0.2,0,0.5]
-        }],
-        "coreConfig": [{
-            "gripHeight": 7.4,
-            "gripWidth": 80.5,
-            "gripWidthOpen": 87,
-            "offsets": [-0.5,0,5.5]
-        }],
-        "4000_TipAngle": [{
-            "angled10Config":[57.2, -34.4, 5],
-            "angled0Config": [52.2,-34.4, 2.5],
-            "hhsConfig": [52.2,-34.4, 2.5]
-        }],
-        "1000_TipAngle": [{
-            "angled10Config":[57.3, -34.9, 3.2],
-            "angled0Config": [52.2,-34.4, 2],
-            "hhsConfig": [52.2,-34.4, 2]
-        }],
-        "300_TipAngle": [{
-            "angled10Config":[57.5, -34.9, 1.7],
-            "angled0Config": [52.2,-34.4, 1.5],
-            "hhsConfig": [52.2,-34.4, 1.5]
-        }]
-    }],
-    
-    
-    "str1":[
-    "================================",
-    "          Workflows             ",
-    "================================"],
-
+        "================================"
+    ],
+    "autoflaskConfig": [
+        {
+            "hhsConfig": [
+                {
+                    "shakingDirection": 0,
+                    "shakingAccRamp": 630,
+                    "shakingDirection_Guide": "0 = clockwise (default), 1 = counter-clockwise",
+                    "shakingAccRamp_Guide": "Acceleration ramp 630 - 12500 (1250 default)"
+                }
+            ],
+            "unusedConfigSettings": "gripForce, gripSpeed, zSpeedGet, xAcceleration, zSpeedPlace, tolerance",
+            "iswapConfig": [
+                {
+                    "gripHeight": 8,
+                    "gripWidth": 81,
+                    "gripWidthOpen": 87,
+                    "offsets": [
+                        -0.2,
+                        0,
+                        0.5
+                    ]
+                }
+            ],
+            "coreConfig": [
+                {
+                    "gripHeight": 7.4,
+                    "gripWidth": 80.5,
+                    "gripWidthOpen": 87,
+                    "offsets": [
+                        -0.5,
+                        0,
+                        5.5
+                    ]
+                }
+            ],
+            "4000_TipAngle": [
+                {
+                    "angled10Config": [
+                        57.2,
+                        -34.4,
+                        5
+                    ],
+                    "angled0Config": [
+                        52.2,
+                        -34.4,
+                        2.5
+                    ],
+                    "hhsConfig": [
+                        52.2,
+                        -34.4,
+                        2.5
+                    ]
+                }
+            ],
+            "1000_TipAngle": [
+                {
+                    "angled10Config": [
+                        57.3,
+                        -34.9,
+                        3.2
+                    ],
+                    "angled0Config": [
+                        52.2,
+                        -34.4,
+                        2
+                    ],
+                    "hhsConfig": [
+                        52.2,
+                        -34.4,
+                        2
+                    ]
+                }
+            ],
+            "300_TipAngle": [
+                {
+                    "angled10Config": [
+                        57.5,
+                        -34.9,
+                        1.7
+                    ],
+                    "angled0Config": [
+                        52.2,
+                        -34.4,
+                        1.5
+                    ],
+                    "hhsConfig": [
+                        52.2,
+                        -34.4,
+                        1.5
+                    ]
+                }
+            ]
+        }
+    ],
+    "str1": [
+        "================================",
+        "          Workflows             ",
+        "================================"
+    ],
     "approvedProcessConfig": [
         "mediachange",
         "cellseeding",
@@ -91,53 +152,61 @@
         "centrifugetest",
         "day 13 - passage"
     ],
-
     "mediachange": [
         "transport_2-Loading-Tilt",
         "pipetting_1200-CellMix-Tilt-DWP",
         "transport_2-Tilt-Loading",
         "increment_NextSet"
-        
     ],
-
     "day 13 - passage": [
         "hhsHeat_38",
         "transport_2-Loading-Tilt",
+        "pipetting_12000-Media-Tilt-Waste",
+        "pipetting_2300-Media-Tilt-Waste",
+        "pipetting_4000-PBS-Res-Tilt",
+        "sway_15seconds",
+        "pipetting_4000-PBS-Tilt-Waste",
+        "pipetting_2300-Media-Tilt-Waste",
+        "pipetting_5000-TrypLE-Res-Tilt",
+        "transport_2-Tilt-HHS",
+        "hhsShake_250",
+        "timerStartHHS_600",
+        "timerWaitFor_HHS",
+        "pipetting_5000-Media-Res-HHS",
+        "hhsShake_250",
+        "timerStartHHS_15",
+        "timerWaitFor_HHS",
+        "transport_2-HHS-Tilt",
+        "sway_20seconds",
         "pipetting_1200-CellMix-Tilt-DWP",
         "transport_2-Tilt-Loading",
         "increment_NextSet"
     ],
-
     "passage": [
         "transportCORE_LoadingToTilt",
         "cellDilutionCalc_CellVol",
         "pipetting_CellSeedingMediaFromResToTilt",
         "transportCORE_TiltToLoading",
-
         "timerWaitFor_HHS",
         "pipetting_MediaInResToHHS",
         "hhsShake_500",
         "timerStartHHS_15",
         "timerWaitFor_HHS",
-        
         "transportCORE_HHSToTilt",
         "transportCORE_LoadingToHHS",
         "pipetting_CellsInTiltToHHS",
         "hhsShake_400",
         "timerStartHHS_20",
-        
         "transportCORE_TiltToLoading",
         "timerWaitFor_HHS",
         "transportCORE_HHSToLoading",
         "increment_NextSet"
     ],
-
     "centrifugetest": [
         "centrifugePresent_1",
         "centrifugePresent_2",
         "centrifugeSpin_Cells"
     ],
-
     "templateWorkflow": [
         "step_details",
         "--subWorkflow"
