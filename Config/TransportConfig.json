@@ -18,7 +18,7 @@
     "2-Tilt-Loading": [
         {
             "blnToolType": true,
-            "blnParkAfterUse": false,
+            "blnParkAfterUse": true,
             "intThroughput": 2,
             "blnCheckOnPickup": false,
             "blnCheckOnPlace": false,

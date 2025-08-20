@@ -61,22 +61,19 @@
             "offsets": [-0.5,0,5.5]
         }],
         "4000_TipAngle": [{
-            "angled10Config":[56.5, -33.8, 1.4],
-            "angled11Config":[56.9, -33.8, 0.5],
-            "angled0Config": [51.5, -33.5, 1.4],
-            "hhsConfig": [51.5, -33.5, 1.4]
+            "angled10Config":[57.2, -34.4, 5],
+            "angled0Config": [52.2,-34.4, 2.5],
+            "hhsConfig": [52.2,-34.4, 2.5]
         }],
         "1000_TipAngle": [{
-            "angled10Config":[57.3, -33.8, 0.9],
-            "angled11Config":[56.9, -33.8, 0.5],
-            "angled0Config": [51.8, -33.5, 1.4],
-            "hhsConfig": [51.5, -33.5, 1.4]
+            "angled10Config":[57.3, -34.9, 3.2],
+            "angled0Config": [52.2,-34.4, 2],
+            "hhsConfig": [52.2,-34.4, 2]
         }],
         "300_TipAngle": [{
-            "angled10Config":[57.5, -33.8, 1.5],
-            "angled11Config":[56.9, -33.8, 0.5],
-            "angled0Config": [51.8, -33.5, 1.4],
-            "hhsConfig": [51.5, -33.5, 1.4]
+            "angled10Config":[57.5, -34.9, 1.7],
+            "angled0Config": [52.2,-34.4, 1.5],
+            "hhsConfig": [52.2,-34.4, 1.5]
         }]
     }],
     
@@ -106,23 +103,6 @@
     "day 13 - passage": [
         "hhsHeat_38",
         "transport_2-Loading-Tilt",
-        "pipetting_12000-Media-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_4000-PBS-Res-Tilt",
-        "sway_15seconds",
-        "pipetting_4000-PBS-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_5000-TrypLE-Res-Tilt",
-        "transport_2-Tilt-HHS",
-        "hhsShake_250",
-        "timerStartHHS_600",
-        "timerWaitFor_HHS",
-        "pipetting_5000-Media-Res-HHS",
-        "hhsShake_250",
-        "timerStartHHS_15",
-        "timerWaitFor_HHS",
-        "transport_2-HHS-Tilt",
-        "sway_20seconds",
         "pipetting_1200-CellMix-Tilt-DWP",
         "transport_2-Tilt-Loading",
         "increment_NextSet"
