@@ -200,7 +200,7 @@
             {
             "str1": "===== Tips =====",
             "intTransferVolume": 1200,
-            "blnFreshTipsPerPipette": true,
+            "blnFreshTipsPerPipette": false,
             "blnEjectTipsOnCompletion": true,
             "intTipSize": 4000,
             "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
@@ -210,7 +210,7 @@
             "blnSourceIncrement": false,
             "intAspirateLLD": 0,
             "intAspirateSubmerge": 0,
-            "intAspirateHeight": 1,
+            "intAspirateHeight": 0.5,
             "intAspirateRetract": 16.4,
             "blnAspirateFollowing": 0,
             "intAspirateMixCycles": 1,
