@@ -203,9 +203,11 @@
         "increment_NextSet"
     ],
     "centrifugetest": [
-        "centrifugePresent_1",
-        "centrifugePresent_2",
-        "centrifugeSpin_Cells"
+        "centrifugePresent_A",
+        "centrifugePresent_B",
+        "centrifugeSpin_Cells",
+        "centrifugeUnload_A",
+        "centrifugeUnload_B"
     ],
     "templateWorkflow": [
         "step_details",

@@ -92,6 +92,54 @@
             "strDestination": "Greiner_AutoFlask_Centrifuge_0002"
         }
     ],
+    "centrifugePresent_A": [
+        {
+            "intPresent": 1,
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 1,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Loading",
+            "strDestination": "Greiner_AutoFlask_Centrifuge_0001"
+        }
+    ],
+    "centrifugePresent_B": [
+        {
+            "intPresent": 2,
+            "blnToolType": true,
+            "blnParkAfterUse": true,
+            "intThroughput": 1,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "AutoFlask_Loading",
+            "strDestination": "Greiner_AutoFlask_Centrifuge_0002"
+        }
+    ],
+    "centrifugeUnload_A": [
+        {
+            "intPresent": 1,
+            "blnToolType": true,
+            "blnParkAfterUse": false,
+            "intThroughput": 1,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "Greiner_AutoFlask_Centrifuge_0001",
+            "strDestination": "AutoFlask_Loading"
+        }
+    ],
+    "centrifugeUnload_B": [
+        {
+            "intPresent": 2,
+            "blnToolType": true,
+            "blnParkAfterUse": true,
+            "intThroughput": 1,
+            "blnCheckOnPickup": false,
+            "blnCheckOnPlace": false,
+            "strSource": "Greiner_AutoFlask_Centrifuge_0002",
+            "strDestination": "AutoFlask_Loading"
+        }
+    ],
     "str2": [
         "================================",
         "        Transport Guide         ",
