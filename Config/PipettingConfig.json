@@ -262,8 +262,8 @@
     ],
     "centrifugeSpin_Cells": [
         {
-            "SpinSpeed": 600,
-            "SpinTime": 120,
+            "SpinSpeed": 1620,
+            "SpinTime": 300,
             "SpinAcceleration": 100 
         }
     ]

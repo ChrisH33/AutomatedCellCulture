@@ -174,7 +174,7 @@
         "timerWaitFor_HHS",
         "pipetting_5000-Media-Res-HHS",
         "hhsShake_250",
-        "timerStartHHS_15",
+        "timerStartHHS_150",
         "timerWaitFor_HHS",
         "transport_2-HHS-Tilt",
         "sway_20seconds",
@@ -207,7 +207,8 @@
         "centrifugePresent_B",
         "centrifugeSpin_Cells",
         "centrifugeUnload_A",
-        "centrifugeUnload_B"
+        "centrifugeUnload_B",
+        "increment_NextSet"
     ],
     "templateWorkflow": [
         "step_details",
