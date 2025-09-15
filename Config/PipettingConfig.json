@@ -210,7 +210,7 @@
             "blnSourceIncrement": false,
             "intAspirateLLD": 0,
             "intAspirateSubmerge": 0,
-            "intAspirateHeight": 0.5,
+            "intAspirateHeight": 0.3,
             "intAspirateRetract": 16.4,
             "blnAspirateFollowing": 0,
             "intAspirateMixCycles": 1,
