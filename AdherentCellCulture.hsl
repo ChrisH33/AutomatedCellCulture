@@ -1,7 +1,7 @@
  namespace _Method { #include "HSLML_STARLib.hsl" }
- namespace _Method { #include "WSI\\AswStatusDialog_WSI\\AswStatusDialog_WSI.hsl" } 
+ namespace _Method { #include "WSI\\AswStatusDialog\\AswStatusDialog_WSI.hsl" } 
  namespace _Method { #include "HSLStrLib.hsl" } 
- namespace _Method { #include "WSI\\SangerGeneral\\SangerGeneral.hs_" } 
+ namespace _Method { #include "WSI\\CellCulture\\SangerGeneral.hs_" } 
  namespace _Method { #include "HSLFileDirectoryLib.hsl" } 
  namespace _Method { #include "HSLFilLib.hsl" } 
  namespace _Method { #include "HSLTimLib.hsl" } 
@@ -13,19 +13,19 @@
  namespace _Method { #include "WSI\\SCAP_STARplus\\SCAP_STARplus.hs_" } 
  namespace _Method { #include "WSI\\JSONSearch\\JSONSearch.hs_" } 
  namespace _Method { #include "ASWStandard\\TraceLevel\\TraceLevel.hsl" } 
- namespace _Method { #include "WSI\\HSLGetSerialNumber_WSI\\HSLGetSerialNumber_WSI.hsl" } 
- namespace _Method { #include "WSI\\HSLBarcodeReader_WSI\\HSLBarcodeReader_WSI.hsl" } 
+ namespace _Method { #include "WSI\\HSLGetSerialNumber\\HSLGetSerialNumber_WSI.hsl" } 
+ namespace _Method { #include "WSI\\HSLBarcodeReader\\HSLBarcodeReader_WSI.hsl" } 
  namespace _Method { #include "VirtualLabware_V2.hsl" } 
  namespace _Method { #include "HSLMthLib.hsl" } 
  namespace _Method { #include "HSLDeckVisualize.hsl" } 
- namespace _Method { #include "HslHamHeaterShakerLib\\HslHamHeaterShakerLib.hsl" } 
- namespace _Method { #include "WSI\\Hamilton-Tilt-Clamp-Module_WSI\\Hamilton Tilt Clamp Module_WSI.hsl" } 
- namespace _Method { #include "WSI\\Hamilton-Tilt-Clamp-Module_WSI\\ParallelSway.hs_" } 
- namespace _Method { #include "HSL Sias Centrifuge\\SiasCentrifuge.hs_" } 
- namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifuge.hsl" } 
+ namespace _Method { #include "Device Sub-method Libraries\\HslHamHeaterShakerLib\\HslHamHeaterShakerLib.hsl" } 
+ namespace _Method { #include "WSI\\Hamilton Tilt Clamp Module\\Hamilton Tilt Clamp Module_WSI.hsl" } 
+ namespace _Method { #include "WSI\\ParallelSway\\ParallelSway.hs_" } 
+ namespace _Method { #include "Device Sub-method Libraries\\HSL Sias Centrifuge\\SiasCentrifuge.hs_" } 
+ namespace _Method { #include "Device Sub-method Libraries\\HSL Sias Centrifuge\\HSLSiasCentrifuge.hsl" } 
 #include "AdherentCellCulture.res"
  namespace _Method { #include "lookup.hs_" } 
- namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
+ namespace _Method { #include "Device Sub-method Libraries\\HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
  namespace _Method { #include "Load Instructions (All)\\load_instructions\\load_instructions.hs_" } 
  namespace _Method { #include "MLSTARLiquidClassLib.hsl" } 
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
@@ -695,36 +695,43 @@ Trace("[SIM] Hamilton Heater Shaker ", arrHhsDevices[loopCounter2-1], ": SetPlat
 }
 }
 // }} ""
-// {{{ 186 1 0 "8accd020_5dce_49fc_984208cab65889a5" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+// {{ 186 1 0 "5c88b412_74de_4281_b0ebf50bd6035ba9" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+if (blnSimulationMode == 0)
+{
+// }} ""
+// {{{ 187 1 0 "39ea48c9_ddd5_4be1_8eecf9b8cb0264a2" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
 HSLHamHeaterShaker::Terminate();
 // }} ""
-// {{ 187 1 0 "5b51c92e_63db_424a_93444cde42cb7ba9" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
-
-// }} ""
-// {{ 188 1 0 "32de80b6_9d23_4ab0_a0a2559298178159" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
-blnHhsDevices_State = 0;
-// }} ""
-// {{ 189 1 0 "86cf3cc5_9212_4317_87950f7b5bca1aac" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
-
-// }} ""
-// {{{ 190 1 0 "be2af1b5_88d1_4a77_a3c157f134ba0b4b" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
-TRACELEVEL::Trace_02(TRACE_LEVEL_RELEASE, Translate(">> Disconnected from HHS Modules"), Translate(""));
-// }} ""
-// {{ 191 1 0 "420d9804_3ccb_46b0_83b556cb8c2746e5" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+// {{ 188 1 0 "5c88b412_74de_4281_b0ebf50bd6035ba9" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
 }
 // }} ""
-// {{ 192 1 0 "36908dea_393f_40a0_9db4d844da13b944" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+// {{ 189 1 0 "5b51c92e_63db_424a_93444cde42cb7ba9" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
 // }} ""
-// {{ 193 1 0 "ab18200c_28e0_450c_96dc1759fa096689" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+// {{ 190 1 0 "32de80b6_9d23_4ab0_a0a2559298178159" "{B31F3543-5D80-11d4-A5EB-0050DA737D89}"
+blnHhsDevices_State = 0;
+// }} ""
+// {{ 191 1 0 "86cf3cc5_9212_4317_87950f7b5bca1aac" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{{ 192 1 0 "be2af1b5_88d1_4a77_a3c157f134ba0b4b" "{C1F3C015-47B3-4514-9407-AC2E65043419}"
+TRACELEVEL::Trace_02(TRACE_LEVEL_RELEASE, Translate(">> Disconnected from HHS Modules"), Translate(""));
+// }} ""
+// {{ 193 1 0 "420d9804_3ccb_46b0_83b556cb8c2746e5" "{B31F3531-5D80-11d4-A5EB-0050DA737D89}"
+}
+// }} ""
+// {{ 194 1 0 "36908dea_393f_40a0_9db4d844da13b944" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
+
+// }} ""
+// {{ 195 1 0 "ab18200c_28e0_450c_96dc1759fa096689" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
 // }} ""
 /* {{ 1 "" "0" */ if(0){  /* }} "" */
-// {{{ 194 1 0 "b23a579b_6607_47dc_922bc80a528d2fa2" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
+// {{{ 196 1 0 "b23a579b_6607_47dc_922bc80a528d2fa2" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
 SIASCENTRIFUGE::Terminate(121);
 // }} ""
 /* {{ 1 "" "1" */ } /* }} "" */
-// {{ 195 1 0 "d9a6c09a_a65a_4165_b414dd6a10395b64" "{586C3429-F931-405f-9938-928E22C90BFA}"
+// {{ 197 1 0 "d9a6c09a_a65a_4165_b414dd6a10395b64" "{586C3429-F931-405f-9938-928E22C90BFA}"
 
 // }} ""
 // {{ 2 "AutoExitBlock" ""
@@ -741,4 +748,4 @@ LOAD_INSTRUCTIONS::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=Hamilton$$valid=0$$time=2025-09-11 16:09$$checksum=232d457f$$length=087$$
+// $$author=ch33$$valid=0$$time=2025-09-15 08:22$$checksum=73aa8abd$$length=083$$
