@@ -23,7 +23,7 @@
     ],
     "methodConfig": [
         {
-            "traceLevel": 1,
+            "traceLevel": 2,
             "traceLevelGuide": "0 = None, 1 = Release, 2 = Debug",
             "4000uL_TipCounter": "TipCounter_4mLFiltered",
             "1000uL_TipCounter": "TipCounter_1mLFiltered",
