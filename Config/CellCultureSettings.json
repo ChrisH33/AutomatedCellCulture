@@ -21,23 +21,13 @@
             "centrifugeID": 121
         }
     ],
-    "methodConfig": [
+    "Method-Config": [
         {
-            "traceLevel": 2,
+            "TraceLevel": 1,
             "traceLevelGuide": "0 = None, 1 = Release, 2 = Debug",
             "4000uL_TipCounter": "TipCounter_4mLFiltered",
             "1000uL_TipCounter": "TipCounter_1mLFiltered",
-            "300uL_TipCounter": "TipCounter_300uLSlim",
-            "day 13 - passageProcessCount": 4,
-            "mediaadditionProcessCount": 2,
-            "mediaremovalProcessCount": 2,
-            "mediachangeProcessCount": 2,
-            "cellseedingProcessCount": 2,
-            "mediafillcellseedProcessCount": 2,
-            "celldissociationProcessCount": 2,
-            "passageProcessCount": 4,
-            "testingProcessCount": 4,
-            "testtransportProcessCount": 2
+            "300uL_TipCounter": "TipCounter_300uLSlim"
         }
     ],
     "str3": [
@@ -144,21 +134,26 @@
         "          Workflows             ",
         "================================"
     ],
-    "approvedProcessConfig": [
-        "mediachange",
-        "cellseeding",
-        "celldissociation",
-        "passage",
-        "centrifugetest",
-        "day 13 - passage"
+    "Approved-Process-Config": [
+        "Media-Change",
+        "Day13-Passage",
+        "Centrifuge-Test"
     ],
-    "mediachange": [
-        "transport_2-Loading-Tilt",
-        "pipetting_1200-CellMix-Tilt-DWP",
-        "transport_2-Tilt-Loading",
-        "increment_NextSet"
+    "Media-Change": [
+        {
+            "throughput": 2,
+            "workflow": [
+                "transport_2-Loading-Tilt",
+                "pipetting_1200-CellMix-Tilt-DWP",
+                "transport_2-Tilt-Loading",
+                "increment_NextSet"
+            ]
+        }
     ],
-    "day 13 - passage": [
+    "Day13-Passage": [
+        {
+            "throughput": 4,
+            "workflow": [
         "hhsHeat_38",
         "transport_2-Loading-Tilt",
         "pipetting_12000-Media-Tilt-Waste",
@@ -180,43 +175,19 @@
         "sway_25seconds",
         "pipetting_1200-CellMix-Tilt-DWP",
         "transport_2-Tilt-Loading",
-        "increment_NextSet"
+        "increment_NextSet"]
+        }
     ],
-    "passage": [
-        "transportCORE_LoadingToTilt",
-        "cellDilutionCalc_CellVol",
-        "pipetting_CellSeedingMediaFromResToTilt",
-        "transportCORE_TiltToLoading",
-        "timerWaitFor_HHS",
-        "pipetting_MediaInResToHHS",
-        "hhsShake_500",
-        "timerStartHHS_15",
-        "timerWaitFor_HHS",
-        "transportCORE_HHSToTilt",
-        "transportCORE_LoadingToHHS",
-        "pipetting_CellsInTiltToHHS",
-        "hhsShake_400",
-        "timerStartHHS_20",
-        "transportCORE_TiltToLoading",
-        "timerWaitFor_HHS",
-        "transportCORE_HHSToLoading",
-        "increment_NextSet"
-    ],
-    "centrifugetest": [
+    "Centrifuge-Test": [
+        {
+            "throughput": 2,
+            "workflow": [
         "centrifugePresent_A",
         "centrifugePresent_B",
         "centrifugeSpin_Cells",
         "centrifugeUnload_A",
         "centrifugeUnload_B",
-        "increment_NextSet"
-    ],
-    "templateWorkflow": [
-        "step_details",
-        "--subWorkflow"
-    ],
-    "pbsWashSubWorkflow": [
-        "pipettingPBSToTilt_4mL",
-        "sway_20seconds",
-        "pipettingTiltToWaste_4000uL"
+        "increment_NextSet"]
+        }
     ]
 }
