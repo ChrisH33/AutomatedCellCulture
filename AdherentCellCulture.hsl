@@ -53,7 +53,6 @@ variable blnSimulationMode;
 variable arrAllBarcodes[];
 variable arrAllLabwareTypes[];
 variable strCurrentStep;
-variable intCheckTime;
 variable intNumberOfSequences;
 variable loopCounter4;
 global device ML_STAR ("AdherentCellCulture.lay", "ML_STAR", hslTrue);
@@ -789,4 +788,4 @@ LOAD_INSTRUCTIONS::_ExitLibrary();
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=Hamilton$$valid=0$$time=2025-09-19 14:36$$checksum=5de6a6b9$$length=087$$
+// $$author=ch33$$valid=0$$time=2025-09-22 00:00$$checksum=4a21c354$$length=083$$

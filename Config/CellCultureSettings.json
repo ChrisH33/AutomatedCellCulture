@@ -137,6 +137,7 @@
     "Approved-Process-Config": [
         "Media-Change",
         "Day13-Passage",
+        "Day11-Passage",
         "Centrifuge-Test"
     ],
     "Media-Change": [
@@ -148,6 +149,38 @@
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
+        }
+    ],
+    "Day11-Passage": [
+        {
+            "throughput": 4,
+            "workflow": [
+        "hhsHeat_38",
+        "transport_2-Loading-Tilt",
+        "pipetting_12000-Media-Tilt-Waste",
+        "pipetting_2300-Media-Tilt-Waste",
+        "pipetting_4000-PBS-Res-Tilt",
+        "sway_15seconds",
+        "pipetting_4000-PBS-Tilt-Waste",
+        "pipetting_2300-Media-Tilt-Waste",
+        "pipetting_5000-TrypLE-Res-Tilt",
+        "transport_2-Tilt-HHS",
+        "hhsShake_250",
+        "timerStartHHS_450",
+        "timerWaitFor_HHS",
+        "pipetting_5000-Media-Res-HHS",
+        "hhsShake_450",
+        "timerStartHHS_250",
+        "timerWaitFor_HHS",
+        "transport_2-HHS-Tilt",
+        "sway_25seconds",
+        "transport_2-Loading-HHS",
+        "cellDilutionCalc_SeedingVolume",
+        "pipetting_SeedingVolume-Tilt_HHS",
+        "pipetting_SeedingVolume-Media-HHS",
+        "transport_2-Tilt-Loading",
+        "transport_2-HHS-Loading",
+        "increment_NextSet"]
         }
     ],
     "Day13-Passage": [
