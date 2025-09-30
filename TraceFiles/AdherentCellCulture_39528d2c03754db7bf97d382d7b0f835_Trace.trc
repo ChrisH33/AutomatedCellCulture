@@ -1,0 +1,466 @@
+2025-09-30 10:02:44> SYSTEM : Analyze method - start; Method file C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\AdherentCellCulture.hsl
+2025-09-30 10:02:46> Microlab® STARplus : Communication - progress; Connection to instrument is created.
+2025-09-30 10:02:48> SYSTEM : Analyze method - complete; 
+2025-09-30 10:02:49> SYSTEM : Start method - start; 
+2025-09-30 10:02:49> SYSTEM : Start method - progress; User name: Hamilton
+2025-09-30 10:02:49> SYSTEM : Start method - progress; Phoenix software version: 4.5.0.7977
+2025-09-30 10:02:50> SYSTEM : Start method - progress; Database version: Standard
+2025-09-30 10:02:50> SYSTEM : Start method - progress; Sample tracking: On
+2025-09-30 10:02:50> SYSTEM : Start method - progress; Vector Database: On
+2025-09-30 10:02:50> SYSTEM : Start method - progress; Vector Database connection: Database 'HamiltonVectorDB' on Microsoft SQL Server 'LOCALHOST\HAMILTON' with trusted connection
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - start;
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Microlab® STARplus software version: 4.5.0.5217
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Serial number of Instrument: 7969
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of main module: 7.6S 25 2021_11_05 (GRU C0)
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of 1000µl channels: 4.0S j 2022-03-16, 4.0S j 2022-03-16, 4.0S j 2022-03-16, 4.0S j 2022-03-16
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of 5ml channels: 1.3S g 2014-06-12 (LX), 1.3S g 2014-06-12 (LX), 
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of labware handling channels: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of X drive: 1.4S 2012-04-25
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of auto load: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of iSWAP: 4.1S 2011-12-19
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of washer 1: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of washer 2: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of pump station 1: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of pump station 2: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of pump station 3: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of nano dispenser: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of CO-RE 384 Head: 1.4S 2009-04-28
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of tube gripper: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of camera channel: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of gel card gripper: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of punch card gripper: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of puncher module: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2025-09-30 10:02:50> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2025-09-30 10:02:54> Microlab® STARplus : Start method command - complete;
+2025-09-30 10:02:54> SYSTEM : Start method - complete; 
+2025-09-30 10:02:54> SYSTEM : Execute method - start; Method file C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\AdherentCellCulture.hsl
+2025-09-30 10:02:54> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:02:54> USER : Trace - complete;                                                             Method Details
+2025-09-30 10:02:54> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:02:54> USER : Trace - complete; Method:          Cell Culturing for the MAVE_SGE project
+2025-09-30 10:02:54> USER : Trace - complete; Version:         0.3
+2025-09-30 10:02:54> USER : Trace - complete; Description:     Check SOPs 
+2025-09-30 10:02:54> USER : Trace - complete; Software:        Venus 4 (v 4.5.0.7977)
+2025-09-30 10:02:54> USER : Trace - complete; Author:          Chris Henderson
+2025-09-30 10:02:54> USER : Trace - complete; ------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; -- Running GetFilePaths of FindDBPath
+2025-09-30 10:02:54> TRACELEVEL : TraceArray - start;    --------------------------------------------------------------------------------------------------------------------------
+2025-09-30 10:02:54> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [1]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\CellCultureTracking.mdb
+2025-09-30 10:02:54> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [2]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\CellCultureSettings.json
+2025-09-30 10:02:54> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [3]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\PipettingConfig.json
+2025-09-30 10:02:54> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [4]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\TransportConfig.json
+2025-09-30 10:02:54> TRACELEVEL : TraceArray - complete; --------------------------------------------------------------------------------------------------------------------------
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; -- blnTestingMode: 1
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; -- intTrace: 1
+2025-09-30 10:02:54> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:02:54> USER : Trace - complete; 
+2025-09-30 10:02:54> USER : Trace - complete;                                                          Method Initialisation - Start
+2025-09-30 10:02:54> USER : Trace - complete; 
+2025-09-30 10:02:54> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:02:54> TRACELEVEL : SetTraceLevel - complete; Trace level set to TRACE_LEVEL_RELEASE
+2025-09-30 10:02:54> USER : Trace - complete; ========== Software Dependencies ==========
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; >> TraceLevel Initialised
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; >> AswStatusDialog Initialised
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; >> User Identified
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; >> Instrument Run Mode
+2025-09-30 10:02:54> USER : Trace - complete; ========== Instrument Modules ==========
+2025-09-30 10:02:54> Microlab® STARplus : Initialize (Single Step) - start;
+2025-09-30 10:02:54> Microlab® STARplus : Initialize (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste,  > channel 3: StarPlusWaste,  > channel 4: StarPlusWaste, 
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; >> STARPlus Initialised
+2025-09-30 10:02:54> LIBRARY: Hamilton NimbusCap : SetTraceLevel - start;  i_intTraceLevel = 1
+2025-09-30 10:02:54> USER : Trace - complete; ----- SCAP in instrument mode -----
+2025-09-30 10:02:54> TRACELEVEL : Trace_02 - complete; >> [SCAP] OverrideSimulation - off;
+2025-09-30 10:02:55> LIBRARY: Hamilton NimbusCap : COM Interop - progress;  Error: Device with ID=0 does not exist!
+2025-09-30 10:02:55> LIBRARY: Hamilton NimbusCap : SetLightState - complete with error;  Failed to execute, return code: 4!
+2025-09-30 10:02:55> TRACELEVEL : Trace_02 - complete; >> SCAP Filters Initialised 
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetSimulation - complete;  Simulation: Off
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetComPort - start; 
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetComPort - complete;  Com port: COM8
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetTimeout - start; 
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetTimeout - complete;  Timeout: 2 [s]
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetErrorRecovery - start; 
+2025-09-30 10:02:55> SYSTEM : HSLBarcodeReader::SetErrorRecovery - complete;  Error recovery: (2) Return empty string
+2025-09-30 10:02:55> TRACELEVEL : Trace_02 - complete; >> Kenny initialised
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - complete;  > QT: er00qt"10144594/80/00001005"
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:02:55> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XI: er00
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - complete;  > QT: er00qt"10144594/80/00001006"
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:02:56> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:57> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XI: er00
+2025-09-30 10:02:57> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:02:57> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:02:57> TRACELEVEL : Trace_04 - complete; >> 2 Tilt Modules Initialised
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - SetSimulation - start; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - SetSimulation - progress; Set simulate mode = 0
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - SetSimulation - complete; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - SetUSBTrace - start; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - SetUSBTrace - progress; Set USB trace mode = 0
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - SetUSBTrace - complete; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - progress; Version: V4.4
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - CreateUsbDevice - start; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - CreateUsbDevice - progress; USB node '1' firmware version = 3.2S d 2013-10-21 (Heater Shaker)
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - CreateUsbDevice - complete; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - StopShaker - start; 
+2025-09-30 10:02:57> SYSTEM : HSLHamHeaterShakerLib - StopShaker - progress; Send command to USB node ( 1 ).
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - StopShaker - complete; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - start; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - progress; Send command to USB node ( 1 ).
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - complete; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - progress; Version: V4.4
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - CreateUsbDevice - start; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - CreateUsbDevice - progress; USB node '2' firmware version = 3.2S d 2013-10-21 (Heater Shaker)
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - CreateUsbDevice - complete; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - StopShaker - start; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - StopShaker - progress; Send command to USB node ( 2 ).
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - StopShaker - complete; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - start; 
+2025-09-30 10:02:58> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - progress; Send command to USB node ( 2 ).
+2025-09-30 10:02:59> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - complete; 
+2025-09-30 10:02:59> TRACELEVEL : Trace_04 - complete; >> 2 HHS Modules Initialised
+2025-09-30 10:02:59> LIBRARY: HSLSiasCentrifuge : SetSimulationMode - start;  
+2025-09-30 10:02:59> LIBRARY: HSLSiasCentrifuge : SetSimulationMode - complete;  
+2025-09-30 10:02:59> TRACELEVEL : Trace_04 - complete; >> Centrifuge 121 Initialised.
+2025-09-30 10:02:59> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:02:59> USER : Trace - complete; 
+2025-09-30 10:02:59> USER : Trace - complete;                                                                           Find Pending Request - Start
+2025-09-30 10:02:59> USER : Trace - complete; 
+2025-09-30 10:02:59> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:02:59> USER : Trace - complete; HELP!!!
+2025-09-30 10:02:59> TRACELEVEL : TraceArraysFaceToFace - start;    ------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-09-30 10:02:59> TRACELEVEL : TraceArraysFaceToFace - progress;  [1]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\CentrifugeTest - x2.csv    [1]: CentrifugeTest - x2.csv
+2025-09-30 10:02:59> TRACELEVEL : TraceArraysFaceToFace - progress;  [2]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\Day11.csv                  [2]: Day11.csv
+2025-09-30 10:02:59> TRACELEVEL : TraceArraysFaceToFace - progress;  [3]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\Day13.csv                  [3]: Day13.csv
+2025-09-30 10:02:59> TRACELEVEL : TraceArraysFaceToFace - progress;  [4]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\MediaChange - x2.csv       [4]: MediaChange - x2.csv
+2025-09-30 10:02:59> TRACELEVEL : TraceArraysFaceToFace - complete; ------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-09-30 10:02:59> USER : Trace - complete; ===== User Selection =====
+2025-09-30 10:02:59> SYSTEM : Custom Dialog - start; <User Input>
+2025-09-30 10:03:02> SYSTEM : Custom Dialog - complete; <User Input>, Closed with: <1>
+2025-09-30 10:03:02> TRACELEVEL : Trace_02 - complete; >>>>> Process Overview <<<<<
+2025-09-30 10:03:02> TRACELEVEL : Trace_02 - complete;  >> o_strProcess: Media-Change
+2025-09-30 10:03:02> TRACELEVEL : TraceArraysFaceToFace - start;    --------------------------------------------------------------
+2025-09-30 10:03:02> TRACELEVEL : TraceArraysFaceToFace - progress; Source Barcodes [1]: I74xQn   Destination Barcodes [1]: I74xQn
+2025-09-30 10:03:02> TRACELEVEL : TraceArraysFaceToFace - progress; Source Barcodes [2]: 7rqNE1   Destination Barcodes [2]: 7rqNE1
+2025-09-30 10:03:02> TRACELEVEL : TraceArraysFaceToFace - complete; --------------------------------------------------------------
+2025-09-30 10:03:02> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:03:02> USER : Trace - complete; 
+2025-09-30 10:03:02> USER : Trace - complete;                                                                           Sequence Creation - Start
+2025-09-30 10:03:02> USER : Trace - complete; 
+2025-09-30 10:03:02> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:03:02> USER : Trace - complete; ========== Create Flexible Sequences ==========
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_Loading -- 4 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_Tilt -- 2 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_Centrifuge -- 2 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_HHS -- 2 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> Greiner_AutoFlask_Barcoding_0001 -- 1 sequence position
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> Greiner_AutoFlask_Centrifuge_0001 -- 1 sequence position
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> Greiner_AutoFlask_Centrifuge_0002 -- 1 sequence position
+2025-09-30 10:03:02> USER : Trace - complete; ========== Create Fixed Sequences ==========
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> res_Media_XL -- 8 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> res_PBS_XL -- 2 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> res_TrypLE_XL -- 8 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> res_Waste_XL -- 2 sequence positions
+2025-09-30 10:03:02> TRACELEVEL : Trace_06 - complete; >> DWP_PairedPositions -- 10 sequence positions
+2025-09-30 10:03:02> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:03:02> USER : Trace - complete; 
+2025-09-30 10:03:02> USER : Trace - complete;                                                                           Load Instructions - Start
+2025-09-30 10:03:02> USER : Trace - complete; 
+2025-09-30 10:03:02> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:03:02> SYSTEM : Custom Dialog - start; <Load Instructions>
+2025-09-30 10:03:03> SYSTEM : Custom Dialog - complete; <Load Instructions>, Closed with: <1>
+2025-09-30 10:03:03> TRACELEVEL : Trace_02 - complete; >> Reset Deck Layout
+2025-09-30 10:03:03> TRACELEVEL : Trace_02 - complete; >> Temporary Barcodes Assigned
+2025-09-30 10:03:03> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:03:03> USER : Trace - complete; 
+2025-09-30 10:03:03> USER : Trace - complete;                                                                         Pipetting Steps - Start
+2025-09-30 10:03:03> USER : Trace - complete; 
+2025-09-30 10:03:03> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - start;    ------------------------------------------------------
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - progress; >> Process Step  [1]: transport_2-Loading-Tilt
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - progress; >> Process Step  [2]: pipetting_12000-Media-Tilt-Waste
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - progress; >> Process Step  [3]: pipetting_12000-Media-Res-Tilt
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - progress; >> Process Step  [4]: transport_2-Tilt-Loading
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - progress; >> Process Step  [5]: increment_NextSet
+2025-09-30 10:03:03> TRACELEVEL : TraceArray - complete; ------------------------------------------------------
+2025-09-30 10:03:03> SYSTEM : Custom Dialog - start; <Final Check>
+2025-09-30 10:03:04> SYSTEM : Custom Dialog - complete; <Final Check>, Closed with: <1>
+2025-09-30 10:03:04> USER : Trace - complete; ====================================
+2025-09-30 10:03:04> USER : Trace - complete;           Start workflow
+2025-09-30 10:03:04> USER : Trace - complete; ====================================
+2025-09-30 10:03:04>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:03:04>  : Automated Cell Culture - start; [01] transport_2-Loading-Tilt
+2025-09-30 10:03:04>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:03:04> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 10:03:04> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 10:03:04> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 10:03:16> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0001:
+2025-09-30 10:03:16> SYSTEM : HSLBarcodeReader::Read - start; 
+2025-09-30 10:03:18> SYSTEM : HSLBarcodeReader::Read - error; Barcode could not be read
+2025-09-30 10:03:18> SYSTEM : HSLBarcodeReader::Read - complete with error; 
+2025-09-30 10:03:18> Microlab® STARplus : 1000ul Channel CO-RE Grip Move Plate (Single Step) - start;
+2025-09-30 10:03:21> Microlab® STARplus : 1000ul Channel CO-RE Grip Move Plate (Single Step) - complete;  > Greiner_AutoFlask_Barcoding_0001:
+2025-09-30 10:03:21> SYSTEM : HSLBarcodeReader::Read - start; 
+2025-09-30 10:03:21> SYSTEM : HSLBarcodeReader::Read - complete;  Barcode read: T0073219
+2025-09-30 10:03:21> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:03:21> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:21> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:03:21> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:21> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:03:21> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:21> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:03:21> LIBRARY: Hamilton Tilt Clamp Module : ClampOpen - complete with error;  Invalid clamp status, clamp not open !
+2025-09-30 10:03:21> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 10:03:25> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0001:
+2025-09-30 10:03:25> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:03:25> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:25> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:03:25> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:25> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd0 0 0 0
+2025-09-30 10:03:25> LIBRARY: Hamilton Tilt Clamp Module : ClampClose - complete with error;  Invalid clamp status, clamp not closed !
+2025-09-30 10:03:25> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 10:03:25> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 10:03:30> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0002:
+2025-09-30 10:03:30> SYSTEM : HSLBarcodeReader::Read - start; 
+2025-09-30 10:03:32> SYSTEM : HSLBarcodeReader::Read - error; Barcode could not be read
+2025-09-30 10:03:32> SYSTEM : HSLBarcodeReader::Read - complete with error; 
+2025-09-30 10:03:32> SYSTEM : HSLBarcodeReader::Read - start; 
+2025-09-30 10:03:34> SYSTEM : HSLBarcodeReader::Read - error; Barcode could not be read
+2025-09-30 10:03:34> SYSTEM : HSLBarcodeReader::Read - complete with error; 
+2025-09-30 10:03:34> Microlab® STARplus : 1000ul Channel CO-RE Grip Move Plate (Single Step) - start;
+2025-09-30 10:03:37> Microlab® STARplus : 1000ul Channel CO-RE Grip Move Plate (Single Step) - complete;  > Greiner_AutoFlask_Barcoding_0001:
+2025-09-30 10:03:37> SYSTEM : HSLBarcodeReader::Read - start; 
+2025-09-30 10:03:37> SYSTEM : HSLBarcodeReader::Read - complete;  Barcode read: T0073217
+2025-09-30 10:03:37> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:03:37> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:37> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:03:37> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:37> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:03:37> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:37> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:03:37> LIBRARY: Hamilton Tilt Clamp Module : ClampOpen - complete with error;  Invalid clamp status, clamp not open !
+2025-09-30 10:03:37> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 10:03:46> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0002:
+2025-09-30 10:03:46> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:03:46> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:46> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:03:46> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:46> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:03:46>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:03:46>  : Automated Cell Culture - start; [02] pipetting_12000-Media-Tilt-Waste
+2025-09-30 10:03:46>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:03:47> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 10:03:47> USER : Trace - complete; ==========================================================
+2025-09-30 10:03:47> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 10:03:47> USER : Trace - complete; ==========================================================
+2025-09-30 10:03:47> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:03:47> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:03:48> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:03:48> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 10:03:48> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 10:03:48> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 10:03:58> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0005, 17 > channel 2: _4mlTF_L_0005, 19
+2025-09-30 10:03:58> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/3
+2025-09-30 10:03:58> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 10:04:10> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 10:04:10> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 10:04:19> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 10:04:19> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/3
+2025-09-30 10:04:19> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 10:04:30> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 10:04:30> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 10:04:40> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 10:04:40> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 3/3
+2025-09-30 10:04:40> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 10:04:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 10:04:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 10:05:00> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 10:05:00> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 10:05:07> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 10:05:07>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:05:07>  : Automated Cell Culture - start; [03] pipetting_12000-Media-Res-Tilt
+2025-09-30 10:05:07>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:05:07> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 10:05:07> USER : Trace - complete; ==========================================================
+2025-09-30 10:05:07> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 10:05:07> USER : Trace - complete; ==========================================================
+2025-09-30 10:05:07> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:05:07> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:05:08> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:05:08> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 10:05:08> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 10:05:08> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 10:05:15> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0005, 18 > channel 2: _4mlTF_L_0005, 20
+2025-09-30 10:05:15> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/3
+2025-09-30 10:05:15> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 10:05:31> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 4000 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 4000 uL
+2025-09-30 10:05:31> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 10:05:40> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 10:05:40> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/3
+2025-09-30 10:05:40> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 10:05:55> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 4000 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 4000 uL
+2025-09-30 10:05:55> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 10:06:04> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 10:06:04> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 3/3
+2025-09-30 10:06:04> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 10:06:19> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 4000 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 4000 uL
+2025-09-30 10:06:19> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 10:06:29> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 10:06:29> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 10:06:35> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 10:06:35>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:06:35>  : Automated Cell Culture - start; [04] transport_2-Tilt-Loading
+2025-09-30 10:06:35>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:06:35> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 10:06:36> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 10:06:36> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:06:36> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:36> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:06:36> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:36> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:06:36> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:36> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:06:36> LIBRARY: Hamilton Tilt Clamp Module : ClampOpen - complete with error;  Invalid clamp status, clamp not open !
+2025-09-30 10:06:36> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 10:06:49> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0001:
+2025-09-30 10:06:49> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:06:49> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:49> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:06:49> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:49> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd0 1 0 0
+2025-09-30 10:06:49> LIBRARY: Hamilton Tilt Clamp Module : ClampClose - complete with error;  Invalid clamp status, clamp not closed !
+2025-09-30 10:06:49> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: T0073219
+2025-09-30 10:06:49> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 10:06:54> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0001:
+2025-09-30 10:06:54> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 10:06:54> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:06:54> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:54> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:06:54> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:54> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:06:54> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:54> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:06:54> LIBRARY: Hamilton Tilt Clamp Module : ClampOpen - complete with error;  Invalid clamp status, clamp not open !
+2025-09-30 10:06:54> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 10:06:59> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0002:
+2025-09-30 10:06:59> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 10:06:59> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:59> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:06:59> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:06:59> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:06:59> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: T0073217
+2025-09-30 10:06:59> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 10:07:10> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0002:
+2025-09-30 10:07:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:07:10>  : Automated Cell Culture - start; [05] increment_NextSet
+2025-09-30 10:07:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 10:07:10> SYSTEM : Execute method - error; An error occurred while running Vector.  The error description is: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\AdherentCellCulture.med(1008, 1) : array reference out of bound (0x23 - 0x1 - 0x19) , 
+2025-09-30 10:07:10> SYSTEM : Method has been aborted by the system - complete; 
+2025-09-30 10:07:10> SYSTEM : Abort method - start; 
+2025-09-30 10:07:10> Microlab® STARplus : Abort requested command - start;
+2025-09-30 10:07:10> Microlab® STARplus : Abort requested command - complete;
+2025-09-30 10:07:10> Microlab® STARplus : Start Method Abort Handler command - start;
+2025-09-30 10:07:10> Microlab® STARplus : Start Method Abort Handler command - complete;
+2025-09-30 10:07:10> SYSTEM : Custom Dialog - start; <Run Failed>
+2025-09-30 10:08:06> SYSTEM : Custom Dialog - complete; <Run Failed>, Closed with: <2>
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > XA: er00
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > OC: er00
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - start;
+2025-09-30 10:08:06> Microlab® STARplus : Firmware Command (Single Step) - complete;  > RD: er00rd1 1 0 0
+2025-09-30 10:08:06> LIBRARY: Hamilton NimbusCap : COM Interop - progress;  Error: Device with ID=0 does not exist!
+2025-09-30 10:08:06> LIBRARY: Hamilton NimbusCap : Disconnect - complete with error;  Failed to execute, return code: 4!
+2025-09-30 10:08:06> LIBRARY: Hamilton NimbusCap : COM Interop - progress;  Error: Device with ID=0 does not exist!
+2025-09-30 10:08:06> LIBRARY: Hamilton NimbusCap : Disconnect - complete with error;  Failed to execute, return code: 4!
+2025-09-30 10:08:06> TRACELEVEL : Trace_04 - complete; >> [SCAP] Disconnected to SCAP
+2025-09-30 10:08:06> SYSTEM : HSLHamHeaterShakerLib - StopTempCtrl - start; 
+2025-09-30 10:08:06> SYSTEM : HSLHamHeaterShakerLib - StopTempCtrl - progress; Send command to USB node ( 1 ).
+2025-09-30 10:08:06> SYSTEM : HSLHamHeaterShakerLib - StopTempCtrl - complete; 
+2025-09-30 10:08:06> SYSTEM : HSLHamHeaterShakerLib - StopShaker - start; 
+2025-09-30 10:08:06> SYSTEM : HSLHamHeaterShakerLib - StopShaker - progress; Send command to USB node ( 1 ).
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - StopShaker - complete; 
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - start; 
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - progress; Send command to USB node ( 1 ).
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - complete; 
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - StopTempCtrl - start; 
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - StopTempCtrl - progress; Send command to USB node ( 2 ).
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - StopTempCtrl - complete; 
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - StopShaker - start; 
+2025-09-30 10:08:07> SYSTEM : HSLHamHeaterShakerLib - StopShaker - progress; Send command to USB node ( 2 ).
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - StopShaker - complete; 
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - start; 
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - progress; Send command to USB node ( 2 ).
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - SetPlateLock - complete; 
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - Terminate - start; 
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - Terminate - complete; 
+2025-09-30 10:08:08> TRACELEVEL : Release_Trace4 - complete; ===== _Method::SIASCENTRIFUGE::Terminate =====
+2025-09-30 10:08:08> TRACELEVEL : Release_Trace2 - complete;  i_intModuleID 121
+2025-09-30 10:08:08> TRACELEVEL : Release_Trace2 - complete;  Returnvalue 0
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - Terminate - start; 
+2025-09-30 10:08:08> SYSTEM : HSLHamHeaterShakerLib - Terminate - complete; 
+2025-09-30 10:08:08> LIBRARY: Hamilton NimbusCap : _CleanUp (OnAbort) - complete;  
+2025-09-30 10:08:08> Microlab® STARplus : Abort command - start;
+2025-09-30 10:08:08> Microlab® STARplus : Abort command - complete;
+2025-09-30 10:08:08> SYSTEM : Abort method - complete; 
+2025-09-30 10:08:08> SYSTEM : Execute method - complete with error; 
+2025-09-30 10:08:08> SYSTEM : End method - start; 
+2025-09-30 10:08:08> Microlab® STARplus : End method command - start;
+2025-09-30 10:08:09> Microlab® STARplus : Clean up instrument - progress; Move up 1000ul channels
+2025-09-30 10:08:10> Microlab® STARplus : Clean up instrument - progress; Move up 5ml channels
+2025-09-30 10:08:10> Microlab® STARplus : Clean up instrument - progress; Move up CO-RE 384 Head
+2025-09-30 10:08:11> Microlab® STARplus : Clean up instrument - progress; Spreading channels
+2025-09-30 10:08:14> Microlab® STARplus : End method command - complete;
+2025-09-30 10:08:14> SYSTEM : End method - complete; 
+2025-09-30 10:08:50> SYSTEM : File checksum - written; $$author=Hamilton$$valid=0$$time=2025-09-30 10:08$$checksum=da9ee604$$length=137$$

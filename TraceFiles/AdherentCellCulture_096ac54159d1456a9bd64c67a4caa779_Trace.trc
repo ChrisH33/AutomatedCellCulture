@@ -1,0 +1,790 @@
+2025-09-30 09:16:27> SYSTEM : Analyze method - start; Method file C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\AdherentCellCulture.hsl
+2025-09-30 09:16:28> Microlab® STARplus : Communication - progress; Connection to instrument is created.
+2025-09-30 09:16:31> SYSTEM : Analyze method - complete; 
+2025-09-30 09:16:31> SYSTEM : Start method - start; 
+2025-09-30 09:16:31> SYSTEM : Start method - progress; User name: Hamilton
+2025-09-30 09:16:31> SYSTEM : Start method - progress; Phoenix software version: 4.5.0.7977
+2025-09-30 09:16:31> SYSTEM : Start method - progress; Database version: Standard
+2025-09-30 09:16:31> SYSTEM : Start method - progress; Sample tracking: On
+2025-09-30 09:16:31> SYSTEM : Start method - progress; Vector Database: On
+2025-09-30 09:16:31> SYSTEM : Start method - progress; Vector Database connection: Database 'HamiltonVectorDB' on Microsoft SQL Server 'LOCALHOST\HAMILTON' with trusted connection
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - start;
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Microlab® STARplus software version: 4.5.0.5217
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Serial number of Instrument: 0000
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of main module: 0.0X 2002-05-08
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of 1000µl channels: 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08, 0.0X 2002-05-08
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of 5ml channels: 0.0X 2007-03-28, 0.0X 2007-03-28, 
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of labware handling channels: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of X drive: 0.0X 2002-05-08
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of auto load: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of iSWAP: 0.0X 2002-05-08
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of washer 1: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of washer 2: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of temperature-controlled carrier 1: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of temperature-controlled carrier 2: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of CO-RE 96 Head: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of pump station 1: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of pump station 2: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of pump station 3: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of nano dispenser: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of nano dispenser pressure unit: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of CO-RE 384 Head: 0.0X 2005-01-16
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of tube gripper: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of camera channel: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of gel card gripper: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of punch card gripper: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of puncher module: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 1 module 1: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 1 module 2: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 2 module 1: not installed
+2025-09-30 09:16:32> Microlab® STARplus : Start method command - progress; Firmware version of twister decapper station 2 module 2: not installed
+2025-09-30 09:16:33> Microlab® STARplus : Start method command - complete;
+2025-09-30 09:16:34> SYSTEM : Start method - complete; 
+2025-09-30 09:16:34> SYSTEM : Execute method - start; Method file C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\AdherentCellCulture.hsl
+2025-09-30 09:16:34> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:34> USER : Trace - complete;                                                             Method Details
+2025-09-30 09:16:34> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:34> USER : Trace - complete; Method:          Cell Culturing for the MAVE_SGE project
+2025-09-30 09:16:34> USER : Trace - complete; Version:         0.3
+2025-09-30 09:16:34> USER : Trace - complete; Description:     Check SOPs 
+2025-09-30 09:16:34> USER : Trace - complete; Software:        Venus 4 (v 4.5.0.7977)
+2025-09-30 09:16:34> USER : Trace - complete; Author:          Chris Henderson
+2025-09-30 09:16:34> USER : Trace - complete; ------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; -- Running GetFilePaths of FindDBPath
+2025-09-30 09:16:34> TRACELEVEL : TraceArray - start;    --------------------------------------------------------------------------------------------------------------------------
+2025-09-30 09:16:34> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [1]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\CellCultureTracking.mdb
+2025-09-30 09:16:34> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [2]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\CellCultureSettings.json
+2025-09-30 09:16:34> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [3]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\PipettingConfig.json
+2025-09-30 09:16:34> TRACELEVEL : TraceArray - progress; -- Array of DB filepaths [4]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Config\TransportConfig.json
+2025-09-30 09:16:34> TRACELEVEL : TraceArray - complete; --------------------------------------------------------------------------------------------------------------------------
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; -- blnTestingMode: 1
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; -- intTrace: 1
+2025-09-30 09:16:34> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:34> USER : Trace - complete; 
+2025-09-30 09:16:34> USER : Trace - complete;                                                          Method Initialisation - Start
+2025-09-30 09:16:34> USER : Trace - complete; 
+2025-09-30 09:16:34> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:34> TRACELEVEL : SetTraceLevel - complete; Trace level set to TRACE_LEVEL_RELEASE
+2025-09-30 09:16:34> USER : Trace - complete; ========== Software Dependencies ==========
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> TraceLevel Initialised
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> AswStatusDialog Initialised
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> User Identified
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> Simulation Mode
+2025-09-30 09:16:34> USER : Trace - complete; ========== Instrument Modules ==========
+2025-09-30 09:16:34> Microlab® STARplus : Initialize (Single Step) - start;
+2025-09-30 09:16:34> Microlab® STARplus : Initialize (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste,  > channel 3: StarPlusWaste,  > channel 4: StarPlusWaste, 
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> STARPlus Initialised
+2025-09-30 09:16:34> LIBRARY: Hamilton NimbusCap : SetTraceLevel - start;  i_intTraceLevel = 1
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> SCAP Filters Initialised 
+2025-09-30 09:16:34> SYSTEM : HSLBarcodeReader::SetSimulation - complete;  Simulation: On
+2025-09-30 09:16:34> TRACELEVEL : Trace_02 - complete; >> Kenny initialised
+2025-09-30 09:16:34> TRACELEVEL : Trace_04 - complete; >> 2 Tilt Modules Initialised
+2025-09-30 09:16:34> TRACELEVEL : Trace_04 - complete; >> 2 HHS Modules Initialised
+2025-09-30 09:16:34> LIBRARY: HSLSiasCentrifuge : SetSimulationMode - start;  
+2025-09-30 09:16:34> LIBRARY: HSLSiasCentrifuge : SetSimulationMode - complete;  
+2025-09-30 09:16:34> TRACELEVEL : Trace_04 - complete; >> Centrifuge 121 Initialised.
+2025-09-30 09:16:34> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:34> USER : Trace - complete; 
+2025-09-30 09:16:34> USER : Trace - complete;                                                                           Find Pending Request - Start
+2025-09-30 09:16:34> USER : Trace - complete; 
+2025-09-30 09:16:34> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:34> USER : Trace - complete; HELP!!!
+2025-09-30 09:16:35> TRACELEVEL : TraceArraysFaceToFace - start;    ------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-09-30 09:16:35> TRACELEVEL : TraceArraysFaceToFace - progress;  [1]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\CentrifugeTest - x2.csv    [1]: CentrifugeTest - x2.csv
+2025-09-30 09:16:35> TRACELEVEL : TraceArraysFaceToFace - progress;  [2]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\Day11.csv                  [2]: Day11.csv
+2025-09-30 09:16:35> TRACELEVEL : TraceArraysFaceToFace - progress;  [3]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\Day13.csv                  [3]: Day13.csv
+2025-09-30 09:16:35> TRACELEVEL : TraceArraysFaceToFace - progress;  [4]: C:\Program Files (x86)\HAMILTON\Methods\AutomatedCellCulture\Request Files\Pending Files\MediaChange - x2.csv       [4]: MediaChange - x2.csv
+2025-09-30 09:16:35> TRACELEVEL : TraceArraysFaceToFace - complete; ------------------------------------------------------------------------------------------------------------------------------------------------------
+2025-09-30 09:16:35> USER : Trace - complete; ===== User Selection =====
+2025-09-30 09:16:35> SYSTEM : Custom Dialog - start; <User Input>
+2025-09-30 09:16:48> SYSTEM : Custom Dialog - complete; <User Input>, Closed with: <1>
+2025-09-30 09:16:48> TRACELEVEL : Trace_02 - complete; >>>>> Process Overview <<<<<
+2025-09-30 09:16:48> TRACELEVEL : Trace_02 - complete;  >> o_strProcess: Day11-Passage
+2025-09-30 09:16:48> TRACELEVEL : TraceArraysFaceToFace - start;    --------------------------------------------------------------
+2025-09-30 09:16:48> TRACELEVEL : TraceArraysFaceToFace - progress; Source Barcodes [1]: I74xQn   Destination Barcodes [1]: DFW3FV
+2025-09-30 09:16:48> TRACELEVEL : TraceArraysFaceToFace - progress; Source Barcodes [2]: 12S34D   Destination Barcodes [2]: DE576C
+2025-09-30 09:16:48> TRACELEVEL : TraceArraysFaceToFace - complete; --------------------------------------------------------------
+2025-09-30 09:16:48> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:48> USER : Trace - complete; 
+2025-09-30 09:16:48> USER : Trace - complete;                                                                           Sequence Creation - Start
+2025-09-30 09:16:48> USER : Trace - complete; 
+2025-09-30 09:16:48> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:49> USER : Trace - complete; ========== Create Flexible Sequences ==========
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_Loading -- 4 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_Tilt -- 2 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_Centrifuge -- 2 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> AutoFlasks_HHS -- 2 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> Greiner_AutoFlask_Barcoding_0001 -- 1 sequence position
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> Greiner_AutoFlask_Centrifuge_0001 -- 1 sequence position
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> Greiner_AutoFlask_Centrifuge_0002 -- 1 sequence position
+2025-09-30 09:16:49> USER : Trace - complete; ========== Create Fixed Sequences ==========
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> res_Media_XL -- 8 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> res_PBS_XL -- 2 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> res_TrypLE_XL -- 8 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> res_Waste_XL -- 2 sequence positions
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> DWP_PairedPositions -- 10 sequence positions
+2025-09-30 09:16:49> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:49> USER : Trace - complete; 
+2025-09-30 09:16:49> USER : Trace - complete;                                                                           Load Instructions - Start
+2025-09-30 09:16:49> USER : Trace - complete; 
+2025-09-30 09:16:49> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:49> TRACELEVEL : Trace_02 - complete; >> Reset Deck Layout
+2025-09-30 09:16:49> TRACELEVEL : Trace_02 - complete; >> Temporary Barcodes Assigned
+2025-09-30 09:16:49> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:49> USER : Trace - complete; 
+2025-09-30 09:16:49> USER : Trace - complete;                                                                         Pipetting Steps - Start
+2025-09-30 09:16:49> USER : Trace - complete; 
+2025-09-30 09:16:49> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - start;    --------------------------------------------------------
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [01]: hhsHeat_38
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [02]: transport_2-Loading-Tilt
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [03]: pipetting_12000-Media-Tilt-Waste
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [04]: pipetting_2300-Media-Tilt-Waste
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [05]: pipetting_4000-PBS-Res-Tilt
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [06]: sway_15seconds
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [07]: pipetting_4000-PBS-Tilt-Waste
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [08]: pipetting_2300-Media-Tilt-Waste
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [09]: pipetting_5000-TrypLE-Res-Tilt
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [10]: transport_2-Tilt-HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [11]: hhsShake_250
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [12]: timerStartHHS_450
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [13]: timerWaitFor_HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [14]: pipetting_5000-Media-Res-HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [15]: hhsShake_450
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [16]: timerStartHHS_250
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [17]: timerWaitFor_HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [18]: transport_2-HHS-Tilt
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [19]: sway_25seconds
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [20]: transport_2-Loading-HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [21]: cellDilutionCalc_SeedingVolume
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [22]: pipetting_SeedingVolume-Tilt_HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [23]: pipetting_SeedingVolume-Media-HHS
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [24]: transport_2-Tilt-Loading
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [25]: transport_2-HHS-Loading
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - progress; >> Process Step  [26]: increment_NextSet
+2025-09-30 09:16:49> TRACELEVEL : TraceArray - complete; --------------------------------------------------------
+2025-09-30 09:16:49> USER : Trace - complete; ====================================
+2025-09-30 09:16:49> USER : Trace - complete;           Start workflow
+2025-09-30 09:16:49> USER : Trace - complete; ====================================
+2025-09-30 09:16:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:49>  : Automated Cell Culture - start; [01] hhsHeat_38
+2025-09-30 09:16:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:49> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:16:49> TRACELEVEL : Trace_04 - complete; >> HHS Module: SetTemp - 38°C
+2025-09-30 09:16:49> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: Heat to 38°C;
+2025-09-30 09:16:49> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: Heat to 38°C;
+2025-09-30 09:16:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:49>  : Automated Cell Culture - start; [02] transport_2-Loading-Tilt
+2025-09-30 09:16:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:49> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:49> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 09:16:49> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:16:49> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0001:
+2025-09-30 09:16:50> USER : Trace - complete; HSLBarcodeReader::Sim read: SimRunBC_1650
+2025-09-30 09:16:50> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:16:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Open;
+2025-09-30 09:16:50> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:16:50> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0001:
+2025-09-30 09:16:50> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:50> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 09:16:50> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:16:50> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0002:
+2025-09-30 09:16:51> USER : Trace - complete; HSLBarcodeReader::Sim read: SimRunBC_1651
+2025-09-30 09:16:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Open;
+2025-09-30 09:16:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:16:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0002:
+2025-09-30 09:16:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:51>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:51>  : Automated Cell Culture - start; [03] pipetting_12000-Media-Tilt-Waste
+2025-09-30 09:16:51>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:51> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:51> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:51> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:16:51> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 10° Tilt;
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 10° Tilt;
+2025-09-30 09:16:51> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:16:51> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:16:51> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:16:51> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 1 > channel 2: _4mlTF_L_0004, 3
+2025-09-30 09:16:51> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/3
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 09:16:52> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/3
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 09:16:52> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 3/3
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:16:52>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:52>  : Automated Cell Culture - start; [04] pipetting_2300-Media-Tilt-Waste
+2025-09-30 09:16:52>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:52> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:52> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:52> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:16:52> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:52> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:52> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:52> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 10° Tilt;
+2025-09-30 09:16:52> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:52> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 10° Tilt;
+2025-09-30 09:16:52> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:16:52> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:16:52> Microlab® STARplus : 1000ul Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:16:52> Microlab® STARplus : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: SlimTip300ulFilter_0001, 75 > channel 2: SlimTip300ulFilter_0001, 76
+2025-09-30 09:16:52> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/8
+2025-09-30 09:16:52> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:53> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/8
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:53> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 3/8
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:53> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 4/8
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:53> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:54> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 5/8
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:54> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 6/8
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:54> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 7/8
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:54> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 8/8
+2025-09-30 09:16:54> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:55> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:55> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:55> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:55> Microlab® STARplus : 1000ul Channel Tip Eject (Single Step) - start;
+2025-09-30 09:16:55> Microlab® STARplus : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:16:55>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:55>  : Automated Cell Culture - start; [05] pipetting_4000-PBS-Res-Tilt
+2025-09-30 09:16:55>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:55> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:55> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:55> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:16:55> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:55> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:55> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:55> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:16:55> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:55> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:16:55> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:16:55> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:16:55> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 5 > channel 2: _4mlTF_L_0004, 7
+2025-09-30 09:16:56> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/1
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: HAM_DW_22_ml_0001, B1, 4000 uL > channel 2: HAM_DW_22_ml_0001, G1, 4000 uL
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:16:56>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:56>  : Automated Cell Culture - start; [06] sway_15seconds
+2025-09-30 09:16:56>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:56> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:56> TRACELEVEL : Trace_06 - complete; >> Tilt Module: Swaying Step - 5 s
+2025-09-30 09:16:56> TRACELEVEL : Trace_02 - complete; >> Sim mode - skipping step
+2025-09-30 09:16:56>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:56>  : Automated Cell Culture - start; [07] pipetting_4000-PBS-Tilt-Waste
+2025-09-30 09:16:56>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:56> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:56> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:56> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:16:56> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:56> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:56> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:56> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 10° Tilt;
+2025-09-30 09:16:56> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:56> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 10° Tilt;
+2025-09-30 09:16:56> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:16:56> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 6 > channel 2: _4mlTF_L_0004, 8
+2025-09-30 09:16:56> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/1
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 4000 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 4000 uL
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 4000 uL > channel 2: GravWasteTrough96_0001, 47, 4000 uL
+2025-09-30 09:16:56> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:16:57>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:57>  : Automated Cell Culture - start; [08] pipetting_2300-Media-Tilt-Waste
+2025-09-30 09:16:57>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:57> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:57> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:57> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:16:57> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:57> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 10° Tilt;
+2025-09-30 09:16:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 10° Tilt;
+2025-09-30 09:16:57> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:16:57> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Tip Pick Up (Single Step) - complete;  > channel 1: SlimTip300ulFilter_0001, 81 > channel 2: SlimTip300ulFilter_0001, 82
+2025-09-30 09:16:57> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/8
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:57> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/8
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:57> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 3/8
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:57> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:58> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 4/8
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:58> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 5/8
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:58> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 6/8
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:58> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 7/8
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:58> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:59> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 8/8
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 288 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 288 uL
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Dispense (Single Step) - complete;  > channel 1: GravWasteTrough96_0001, 42, 288 uL > channel 2: GravWasteTrough96_0001, 47, 288 uL
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Tip Eject (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 1000ul Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:16:59>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:59>  : Automated Cell Culture - start; [09] pipetting_5000-TrypLE-Res-Tilt
+2025-09-30 09:16:59>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:16:59> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:16:59> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:59> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:16:59> USER : Trace - complete; ==========================================================
+2025-09-30 09:16:59> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:16:59> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:16:59> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:16:59> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:16:59> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:16:59> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:16:59> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 10 > channel 2: _4mlTF_L_0004, 12
+2025-09-30 09:16:59> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/2
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0002, 2, 2500 uL > channel 2: RGT_REFILL_for96Head_0002, 7, 2500 uL
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 2500 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 2500 uL
+2025-09-30 09:16:59> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/2
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0002, 2, 2500 uL > channel 2: RGT_REFILL_for96Head_0002, 7, 2500 uL
+2025-09-30 09:16:59> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:00> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 2500 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 2500 uL
+2025-09-30 09:17:00> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:17:00> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00>  : Automated Cell Culture - start; [10] transport_2-Tilt-HHS
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:00> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Open;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0001:
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1650
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:00> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0001:
+2025-09-30 09:17:00> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Open;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0002:
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1651
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:00> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:00> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0002:
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00>  : Automated Cell Culture - start; [11] hhsShake_250
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:00> TRACELEVEL : Trace_04 - complete; >> HHS Module: StartShaker - 250rpm
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StartShaker at 250rpm;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:00> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StartShaker at 250rpm;
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00>  : Automated Cell Culture - start; [12] timerStartHHS_450
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00> TRACELEVEL : Trace_02 - complete; >> Started new timer: 450
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00>  : Automated Cell Culture - start; [13] timerWaitFor_HHS
+2025-09-30 09:17:00>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:00> TRACELEVEL : Trace_08 - complete; >> Waiting for 'HHS' timer (9 seconds)
+2025-09-30 09:17:01> TRACELEVEL : Trace_08 - complete; >> [0.09%] Waiting.
+2025-09-30 09:17:01> TRACELEVEL : Trace_08 - complete; >> [7.59%] Waiting..
+2025-09-30 09:17:02> TRACELEVEL : Trace_08 - complete; >> [15.07%] Waiting...
+2025-09-30 09:17:03> TRACELEVEL : Trace_08 - complete; >> [22.58%] Waiting.
+2025-09-30 09:17:03> TRACELEVEL : Trace_08 - complete; >> [30.06%] Waiting..
+2025-09-30 09:17:04> TRACELEVEL : Trace_08 - complete; >> [37.54%] Waiting...
+2025-09-30 09:17:05> TRACELEVEL : Trace_08 - complete; >> [45.07%] Waiting.
+2025-09-30 09:17:05> TRACELEVEL : Trace_08 - complete; >> [52.58%] Waiting..
+2025-09-30 09:17:06> TRACELEVEL : Trace_08 - complete; >> [60.08%] Waiting...
+2025-09-30 09:17:07> TRACELEVEL : Trace_08 - complete; >> [67.57%] Waiting.
+2025-09-30 09:17:07> TRACELEVEL : Trace_08 - complete; >> [75.04%] Waiting..
+2025-09-30 09:17:08> TRACELEVEL : Trace_08 - complete; >> [82.54%] Waiting...
+2025-09-30 09:17:09> TRACELEVEL : Trace_08 - complete; >> [90.03%] Waiting.
+2025-09-30 09:17:09> TRACELEVEL : Trace_08 - complete; >> [97.52%] Waiting..
+2025-09-30 09:17:09> TRACELEVEL : Trace_08 - complete; >> [100%] Finished waiting
+2025-09-30 09:17:09>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:09>  : Automated Cell Culture - start; [14] pipetting_5000-Media-Res-HHS
+2025-09-30 09:17:09>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:10> USER : Trace - complete; ==========================================================
+2025-09-30 09:17:10> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:17:10> USER : Trace - complete; ==========================================================
+2025-09-30 09:17:10> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:10> TRACELEVEL : Trace_04 - complete; >> HHS Module: ClosePlateLock
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:10> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:17:10> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 13 > channel 2: _4mlTF_L_0004, 15
+2025-09-30 09:17:10> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/2
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 2500 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 2500 uL
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_HHS_0001, A1, 2500 uL > channel 2: Greiner_AutoFlask_HHS_0002, A1, 2500 uL
+2025-09-30 09:17:10> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/2
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 2500 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 2500 uL
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_HHS_0001, A1, 2500 uL > channel 2: Greiner_AutoFlask_HHS_0002, A1, 2500 uL
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:17:10> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:17:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10>  : Automated Cell Culture - start; [15] hhsShake_450
+2025-09-30 09:17:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:10> TRACELEVEL : Trace_04 - complete; >> HHS Module: StartShaker - 450rpm
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StartShaker at 450rpm;
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:10> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StartShaker at 450rpm;
+2025-09-30 09:17:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10>  : Automated Cell Culture - start; [16] timerStartHHS_250
+2025-09-30 09:17:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10> TRACELEVEL : Trace_02 - complete; >> Started new timer: 250
+2025-09-30 09:17:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10>  : Automated Cell Culture - start; [17] timerWaitFor_HHS
+2025-09-30 09:17:10>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:10> TRACELEVEL : Trace_08 - complete; >> Waiting for 'HHS' timer (9 seconds)
+2025-09-30 09:17:11> TRACELEVEL : Trace_08 - complete; >> [0.08%] Waiting.
+2025-09-30 09:17:12> TRACELEVEL : Trace_08 - complete; >> [7.58%] Waiting..
+2025-09-30 09:17:12> TRACELEVEL : Trace_08 - complete; >> [15.1%] Waiting...
+2025-09-30 09:17:13> TRACELEVEL : Trace_08 - complete; >> [22.59%] Waiting.
+2025-09-30 09:17:14> TRACELEVEL : Trace_08 - complete; >> [30.09%] Waiting..
+2025-09-30 09:17:14> TRACELEVEL : Trace_08 - complete; >> [37.58%] Waiting...
+2025-09-30 09:17:15> TRACELEVEL : Trace_08 - complete; >> [45.08%] Waiting.
+2025-09-30 09:17:16> TRACELEVEL : Trace_08 - complete; >> [52.56%] Waiting..
+2025-09-30 09:17:16> TRACELEVEL : Trace_08 - complete; >> [60.06%] Waiting...
+2025-09-30 09:17:17> TRACELEVEL : Trace_08 - complete; >> [67.54%] Waiting.
+2025-09-30 09:17:18> TRACELEVEL : Trace_08 - complete; >> [75.03%] Waiting..
+2025-09-30 09:17:18> TRACELEVEL : Trace_08 - complete; >> [82.53%] Waiting...
+2025-09-30 09:17:19> TRACELEVEL : Trace_08 - complete; >> [90.02%] Waiting.
+2025-09-30 09:17:20> TRACELEVEL : Trace_08 - complete; >> [97.51%] Waiting..
+2025-09-30 09:17:20> TRACELEVEL : Trace_08 - complete; >> [100%] Finished waiting
+2025-09-30 09:17:20>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:20>  : Automated Cell Culture - start; [18] transport_2-HHS-Tilt
+2025-09-30 09:17:20>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:20> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:20> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0001:
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1650
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Open;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0001:
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:17:20> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:20> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0002:
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1651
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Open;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0002:
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:20> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:17:20>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:20>  : Automated Cell Culture - start; [19] sway_25seconds
+2025-09-30 09:17:20>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:20> TRACELEVEL : Trace_06 - complete; >> Tilt Module: Swaying Step - 5 s
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Sim mode - skipping step
+2025-09-30 09:17:20>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:20>  : Automated Cell Culture - start; [20] transport_2-Loading-HHS
+2025-09-30 09:17:20>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:20> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:20> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:20> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0003:
+2025-09-30 09:17:21> USER : Trace - complete; HSLBarcodeReader::Sim read: SimRunBC_1721
+2025-09-30 09:17:21> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:21> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:21> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:21> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:21> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:21> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0001:
+2025-09-30 09:17:21> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 09:17:21> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:21> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0004:
+2025-09-30 09:17:22> USER : Trace - complete; HSLBarcodeReader::Sim read: SimRunBC_1722
+2025-09-30 09:17:22> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:22> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:22> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:22> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:22> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:22> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0002:
+2025-09-30 09:17:22>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:22>  : Automated Cell Culture - start; [21] cellDilutionCalc_SeedingVolume
+2025-09-30 09:17:22>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:22> SYSTEM : Custom Dialog - start; <Cell Transfer Calculations>
+2025-09-30 09:17:48> SYSTEM : Custom Dialog - complete; <Cell Transfer Calculations>, Closed with: <1>
+2025-09-30 09:17:48> SYSTEM : Custom Dialog - start; <Cell Transfer Calculations>
+2025-09-30 09:17:49> SYSTEM : Custom Dialog - complete; <Cell Transfer Calculations>, Closed with: <1>
+2025-09-30 09:17:49> TRACELEVEL : Trace_02 - complete; >> intCellConcentration: 3
+2025-09-30 09:17:49> TRACELEVEL : Trace_02 - complete; >> intCellsToSeed: 4
+2025-09-30 09:17:49> TRACELEVEL : Trace_10 - complete; >> Maths performed: MthCeiling((4 * 1000) / 3) = 1333uL (intCellTransferVolume)
+2025-09-30 09:17:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:49>  : Automated Cell Culture - start; [22] pipetting_SeedingVolume-Tilt_HHS
+2025-09-30 09:17:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:49> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:49> USER : Trace - complete; ==========================================================
+2025-09-30 09:17:49> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:17:49> USER : Trace - complete; ==========================================================
+2025-09-30 09:17:49> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:49> TRACELEVEL : Trace_04 - complete; >> HHS Module: ClosePlateLock
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:49> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 10° Tilt;
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:17:49> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 10° Tilt;
+2025-09-30 09:17:49> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:17:49> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 14 > channel 2: _4mlTF_L_0004, 16
+2025-09-30 09:17:49> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/1
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 1333 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 1333 uL
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_HHS_0001, A1, 1333 uL > channel 2: Greiner_AutoFlask_HHS_0002, A1, 1333 uL
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:17:49> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:17:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:49>  : Automated Cell Culture - start; [23] pipetting_SeedingVolume-Media-HHS
+2025-09-30 09:17:49>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:50> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:50> USER : Trace - complete; ==========================================================
+2025-09-30 09:17:50> USER : Trace - complete;                   PIP_ChannelTransfer
+2025-09-30 09:17:50> USER : Trace - complete; ==========================================================
+2025-09-30 09:17:50> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:17:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:17:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:17:50> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:17:50> USER : Trace - complete; ========== Pipetting Steps ==========
+2025-09-30 09:17:50> TRACELEVEL : Trace_04 - complete; >> Labware cycle: 1/1
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Tip Pick Up (Single Step) - complete;  > channel 1: _4mlTF_L_0004, 17 > channel 2: _4mlTF_L_0004, 19
+2025-09-30 09:17:50> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 1/4
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 3417 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 3417 uL
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 3417 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 3417 uL
+2025-09-30 09:17:50> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 2/4
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 3417 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 3417 uL
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 3417 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 3417 uL
+2025-09-30 09:17:50> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 3/4
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 3417 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 3417 uL
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 3417 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 3417 uL
+2025-09-30 09:17:50> TRACELEVEL : Trace_04 - complete; >> Transfer loop: 4/4
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Aspirate (Single Step) - complete;  > channel 1: RGT_REFILL_for96Head_0001, 2, 3417 uL > channel 2: RGT_REFILL_for96Head_0001, 7, 3417 uL
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Dispense (Single Step) - complete;  > channel 1: Greiner_AutoFlask_Tilt_0001, A1, 3417 uL > channel 2: Greiner_AutoFlask_Tilt_0002, A1, 3417 uL
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - start;
+2025-09-30 09:17:50> Microlab® STARplus : 5ml Channel Tip Eject (Single Step) - complete;  > channel 1: StarPlusWaste,  > channel 2: StarPlusWaste, 
+2025-09-30 09:17:50>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:50>  : Automated Cell Culture - start; [24] transport_2-Tilt-Loading
+2025-09-30 09:17:50>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:50> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:51> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: 0° Tilt;
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Open;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0001:
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Close;
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1650
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0001:
+2025-09-30 09:17:51> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: 0° Tilt;
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Open;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_Tilt_0002:
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Running Tilt Module Step
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Close;
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1651
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0002:
+2025-09-30 09:17:51>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:51>  : Automated Cell Culture - start; [25] transport_2-HHS-Loading
+2025-09-30 09:17:51>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Starting Submethod
+2025-09-30 09:17:51> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 1/2
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:51> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: StopShaker;
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_1: SetPlateLock;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0001:
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1721
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0003:
+2025-09-30 09:17:51> TRACELEVEL : Trace_06 - complete; >> Transport Cycle: 2/2
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Running HHS Module Step
+2025-09-30 09:17:51> TRACELEVEL : Trace_04 - complete; >> HHS Module: ReleasePlateLock
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:51> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Get Plate (Single Step) - complete;  > Greiner_AutoFlask_HHS_0002:
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Retrieved Barcode: SimRunBC_1722
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - start;
+2025-09-30 09:17:51> Microlab® STARplus : 1000ul Channel CO-RE Grip Place Plate (Single Step) - complete;  > Greiner_AutoFlask_Loading_0004:
+2025-09-30 09:17:51>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:51>  : Automated Cell Culture - start; [26] increment_NextSet
+2025-09-30 09:17:51>  : Automated Cell Culture - start; ////////////////////////////////////////////////////////////////////////////////////////////////////
+2025-09-30 09:17:51> TRACELEVEL : Trace_02 - complete; >> Worklist Complete
+2025-09-30 09:17:51> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:17:51> USER : Trace - complete; 
+2025-09-30 09:17:51> USER : Trace - complete;                                                                         Process Close - Start
+2025-09-30 09:17:51> USER : Trace - complete; 
+2025-09-30 09:17:51> USER : Trace - complete; ******************************************************************************************************************************************************
+2025-09-30 09:17:51> SYSTEM : Custom Dialog - start; <Run Complete>
+2025-09-30 09:17:57> SYSTEM : Custom Dialog - complete; <Run Complete>, Closed with: <2>
+2025-09-30 09:17:57> TRACELEVEL : Trace_02 - complete; >> User ended the method
+2025-09-30 09:17:57> USER : Trace - complete; ############## Method Complete Successfully #################
+2025-09-30 09:17:57> TRACELEVEL : Trace_04 - complete; >> [SCAP] Disconnected to SCAP
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Tilt to 0°;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: ClampClose;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 160: Terminate;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Tilt to 0°;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: ClampClose;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Tilt Clamp Module 161: Terminate;
+2025-09-30 09:17:57> TRACELEVEL : Trace_02 - complete; >> Disconnected from Tilt Modules
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopTempCtrl;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopTempCtrl;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: StopShaker;
+2025-09-30 09:17:57> USER : Trace - complete; [SIM] Hamilton Heater Shaker devHHS_2: SetPlateLock;
+2025-09-30 09:17:57> TRACELEVEL : Trace_02 - complete; >> Disconnected from HHS Modules
+2025-09-30 09:17:57> SYSTEM : Execute method - complete; 
+2025-09-30 09:17:57> SYSTEM : End method - start; 
+2025-09-30 09:17:58> Microlab® STARplus : End method command - start;
+2025-09-30 09:17:58> Microlab® STARplus : Clean up instrument - progress; Move up 1000ul channels
+2025-09-30 09:17:58> Microlab® STARplus : Clean up instrument - progress; Move up 5ml channels
+2025-09-30 09:17:58> Microlab® STARplus : Clean up instrument - progress; Move up CO-RE 384 Head
+2025-09-30 09:17:58> Microlab® STARplus : Clean up instrument - progress; Spreading channels
+2025-09-30 09:17:58> Microlab® STARplus : End method command - complete;
+2025-09-30 09:17:58> SYSTEM : End method - complete; 
+2025-09-30 09:18:07> SYSTEM : File checksum - written; $$author=Hamilton$$valid=0$$time=2025-09-30 09:18$$checksum=29789d35$$length=137$$

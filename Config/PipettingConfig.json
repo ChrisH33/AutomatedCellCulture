@@ -281,7 +281,7 @@
             "intAspirateMixVolume": 2500,
 
             "str4": "===== Destination =====",
-            "strDestination": "AutoFlask_Tilt",
+            "strDestination": "AutoFlask_HHS",
             "blnDestinationIncrement": true,
             "intDispenseLLD": 0,
             "intDispenseSubmerge": 0,

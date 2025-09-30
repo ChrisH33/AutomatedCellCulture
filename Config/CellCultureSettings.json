@@ -145,7 +145,8 @@
             "throughput": 2,
             "workflow": [
                 "transport_2-Loading-Tilt",
-                "pipetting_1200-CellMix-Tilt-DWP",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_12000-Media-Res-Tilt",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
