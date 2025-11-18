@@ -23,7 +23,7 @@
     ],
     "Method-Config": [
         {
-            "TraceLevel": 1,
+            "TraceLevel": 2,
             "traceLevelGuide": "0 = None, 1 = Release, 2 = Debug",
             "4000uL_TipCounter": "TipCounter_4mLFiltered",
             "1000uL_TipCounter": "TipCounter_1mLFiltered",
@@ -138,7 +138,130 @@
         "Media-Change",
         "Day13-Passage",
         "Day11-Passage",
-        "Centrifuge-Test"
+        "Centrifuge-Test",
+        "Day4",
+        "Day15"
+    ],
+    "Day4": [
+        {
+            "throughput": 1,
+            "workflow": [
+                "hhsHeat_38",
+                "transport_2-Loading-Tilt",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_4000-PBS-Res-Tilt",
+                "sway_15seconds",
+                "pipetting_4000-PBS-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_5000-TrypLE-Res-Tilt",
+                "transport_2-Tilt-HHS",
+                "hhsShake_250",
+                "timerStartHHS_450",
+                "timerWaitFor_HHS",
+                "pipetting_5000-Media-Res-HHS",
+                "hhsShake_450",
+                "timerStartHHS_250",
+                "timerWaitFor_HHS",
+                "transport_2-HHS-Tilt",
+                "sway_25seconds",
+            
+                
+                "pipetting_10000-Cell-Tilt-Falcon",
+                "transport_2-Tilt-Loading",
+                "increment_NextSet"
+            ]
+        }
+    ],
+    "Day5": [
+        {
+            "throughput": 1,
+            "workflow": [
+                "hhsHeat_38",
+                "transport_2-Loading-Tilt",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_4000-PBS-Res-Tilt",
+                "sway_15seconds",
+                "pipetting_4000-PBS-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_5000-TrypLE-Res-Tilt",
+                "transport_2-Tilt-HHS",
+                "hhsShake_250",
+                "timerStartHHS_450",
+                "timerWaitFor_HHS",
+                "pipetting_5000-Media-Res-HHS",
+                "hhsShake_450",
+                "timerStartHHS_250",
+                "timerWaitFor_HHS",
+                "transport_2-HHS-Tilt",
+                "sway_25seconds",
+            
+                
+                "FINISH ME"
+            ]
+        }
+    ],
+    "Day7-13": [
+        {
+            "throughput": 2,
+            "workflow": [
+                "hhsHeat_38",
+                "transport_2-Loading-Tilt",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_4000-PBS-Res-Tilt",
+                "sway_15seconds",
+                "pipetting_4000-PBS-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_5000-TrypLE-Res-Tilt",
+                "transport_2-Tilt-HHS",
+                "hhsShake_250",
+                "timerStartHHS_450",
+                "timerWaitFor_HHS",
+                "pipetting_5000-Media-Res-HHS",
+                "hhsShake_450",
+                "timerStartHHS_250",
+                "timerWaitFor_HHS",
+                "transport_2-HHS-Tilt",
+                "sway_25seconds",
+            
+                
+                "FINISH ME",
+                "increment_NextSet"
+            ]
+        }
+    ],
+    "Day15": [
+        {
+            "throughput": 2,
+            "workflow": [
+                "hhsHeat_38",
+                "transport_2-Loading-Tilt",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_4000-PBS-Res-Tilt",
+                "sway_15seconds",
+                "pipetting_4000-PBS-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_5000-TrypLE-Res-Tilt",
+                "transport_2-Tilt-HHS",
+                "hhsShake_250",
+                "timerStartHHS_450",
+                "timerWaitFor_HHS",
+                "pipetting_5000-Media-Res-HHS",
+                "hhsShake_450",
+                "timerStartHHS_250",
+                "timerWaitFor_HHS",
+                "transport_2-HHS-Tilt",
+                "sway_25seconds",
+            
+                
+                "pipetting_10000-Cell-Tilt-Falcon",
+                "transport_2-Tilt-Loading",
+                "increment_NextSet"
+            ]
+        }
     ],
     "Media-Change": [
         {
@@ -156,72 +279,68 @@
         {
             "throughput": 4,
             "workflow": [
-        "hhsHeat_38",
-        "transport_2-Loading-Tilt",
-        "pipetting_12000-Media-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_4000-PBS-Res-Tilt",
-        "sway_15seconds",
-        "pipetting_4000-PBS-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_5000-TrypLE-Res-Tilt",
-        "transport_2-Tilt-HHS",
-        "hhsShake_250",
-        "timerStartHHS_450",
-        "timerWaitFor_HHS",
-        "pipetting_5000-Media-Res-HHS",
-        "hhsShake_450",
-        "timerStartHHS_250",
-        "timerWaitFor_HHS",
-        "transport_2-HHS-Tilt",
-        "sway_25seconds",
-        "transport_2-Loading-HHS",
-        "cellDilutionCalc_SeedingVolume",
-        "sway_25seconds",
-        "pipetting_SeedingVolume-Tilt_HHS",
-        "pipetting_SeedingVolume-Media-HHS",
-        "transport_2-Tilt-Loading",
-        "transport_2-HHS-Loading",
-        "increment_NextSet"]
+                "hhsHeat_38",
+                "transport_2-Loading-Tilt",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_4000-PBS-Res-Tilt",
+                "sway_15seconds",
+                "pipetting_4000-PBS-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_5000-TrypLE-Res-Tilt",
+                "transport_2-Tilt-HHS",
+                "hhsShake_250",
+                "timerStartHHS_450",
+                "timerWaitFor_HHS",
+                "pipetting_5000-Media-Res-HHS",
+                "hhsShake_450",
+                "timerStartHHS_250",
+                "timerWaitFor_HHS",
+                "transport_2-HHS-Tilt",
+                "sway_25seconds",
+                "increment_NextSet"
+            ]
         }
     ],
     "Day13-Passage": [
         {
             "throughput": 4,
             "workflow": [
-        "hhsHeat_38",
-        "transport_2-Loading-Tilt",
-        "pipetting_12000-Media-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_4000-PBS-Res-Tilt",
-        "sway_15seconds",
-        "pipetting_4000-PBS-Tilt-Waste",
-        "pipetting_2300-Media-Tilt-Waste",
-        "pipetting_5000-TrypLE-Res-Tilt",
-        "transport_2-Tilt-HHS",
-        "hhsShake_250",
-        "timerStartHHS_450",
-        "timerWaitFor_HHS",
-        "pipetting_5000-Media-Res-HHS",
-        "hhsShake_450",
-        "timerStartHHS_600",
-        "timerWaitFor_HHS",
-        "transport_2-HHS-Tilt",
-        "sway_25seconds",
-        "transport_2-Tilt-Loading",
-        "increment_NextSet"]
+                "hhsHeat_38",
+                "transport_2-Loading-Tilt",
+                "pipetting_12000-Media-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_4000-PBS-Res-Tilt",
+                "sway_15seconds",
+                "pipetting_4000-PBS-Tilt-Waste",
+                "pipetting_2300-Media-Tilt-Waste",
+                "pipetting_5000-TrypLE-Res-Tilt",
+                "transport_2-Tilt-HHS",
+                "hhsShake_250",
+                "timerStartHHS_450",
+                "timerWaitFor_HHS",
+                "pipetting_5000-Media-Res-HHS",
+                "hhsShake_450",
+                "timerStartHHS_600",
+                "timerWaitFor_HHS",
+                "transport_2-HHS-Tilt",
+                "sway_25seconds",
+                "transport_2-Tilt-Loading",
+                "increment_NextSet"
+            ]
         }
     ],
     "Centrifuge-Test": [
         {
             "throughput": 2,
             "workflow": [
-        "centrifugePresent_A",
-        "centrifugePresent_B",
-        "centrifugeSpin_Cells",
-        "centrifugeUnload_A",
-        "centrifugeUnload_B",
-        "increment_NextSet"]
+                "centrifugePresent_A",
+                "centrifugePresent_B",
+                "centrifugeSpin_Cells",
+                "centrifugeUnload_A",
+                "centrifugeUnload_B",
+                "increment_NextSet"
+            ]
         }
     ]
 }
