@@ -140,7 +140,8 @@
         "Day11-Passage",
         "Centrifuge-Test",
         "Day4",
-        "Day15"
+        "Day15",
+        "Aliquot-Test"
     ],
     "Day4": [
         {
@@ -339,6 +340,16 @@
                 "centrifugeSpin_Cells",
                 "centrifugeUnload_A",
                 "centrifugeUnload_B",
+                "increment_NextSet"
+            ]
+        }
+    ],
+    "Aliquot-Test": [
+        {
+            "throughput": 2,
+            "workflow": [
+                "transport_2-Loading-Tilt",
+                "pipetting_Aliquot-Tilt-Strip",
                 "increment_NextSet"
             ]
         }

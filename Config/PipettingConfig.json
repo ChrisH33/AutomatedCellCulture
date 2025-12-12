@@ -357,6 +357,38 @@
         }
 
     ],
+    "Aliquot-Tilt-Strip": [
+            {
+            "str1": "===== Tips =====",
+            "intTransferVolume": 50,
+            "blnFreshTipsPerPipette": true,
+            "blnEjectTipsOnCompletion": true,
+            "intTipSize": 300,
+            "strLiquidClass": "SlimTipFilter_Water_DispenseJet_Empty",
+
+            "str3": "===== Source =====",
+            "strSource": "AutoFlask_Tilt",
+            "blnSourceIncrement": true,
+            "intAspirateLLD": 0,
+            "intAspirateSubmerge": 0,
+            "intAspirateHeight": 0.1,
+            "intAspirateRetract": 18.1,
+            "blnAspirateFollowing": 0,
+            "intAspirateMixCycles": 0,
+            "intAspirateMixVolume": 0,
+
+            "str4": "===== Destination =====",
+            "strDestination": "Azenta_Strip",
+            "blnDestinationIncrement": true,
+            "intDispenseLLD": 0,
+            "intDispenseSubmerge": 0,
+            "intDispenseHeight": 2,
+            "intDispenseRetract": 15,
+            "blnDispenseFollowing": 0,
+            "intDispenseMixCycles": 0,
+            "intDispenseMixVolume": 0
+        }
+    ],
     "centrifugeSpin_Cells": [
         {
             "SpinSpeed": 1620,
