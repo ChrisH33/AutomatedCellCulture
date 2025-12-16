@@ -140,6 +140,7 @@
         "Day11-Passage",
         "Centrifuge-Test",
         "Day4",
+        "Day7-13",
         "Day15",
         "Aliquot-Test"
     ],
@@ -226,10 +227,14 @@
                 "timerWaitFor_HHS",
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
-            
-                
-                "FINISH ME",
-                "increment_NextSet"
+                "pipetting_10000-Cell-Tilt-Falcon",
+                "transport_2-Loading-HHS",
+                "transport_2-Tilt-Loading",
+                "cellDilutionCalc_SeedingVolume",
+                "pipetting_SeedingVolume-Media-HHS",
+                "pipetting_SeedingVolume-Falcon_HHS",
+                "transport_2-HHS-Tilt",
+                "endMethod_endMethod"
             ]
         }
     ],
@@ -255,9 +260,7 @@
                 "timerStartHHS_250",
                 "timerWaitFor_HHS",
                 "transport_2-HHS-Tilt",
-                "sway_25seconds",
-            
-                
+                "sway_25seconds",         
                 "pipetting_10000-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
@@ -271,61 +274,6 @@
                 "transport_2-Loading-Tilt",
                 "pipetting_12000-Media-Tilt-Waste",
                 "pipetting_12000-Media-Res-Tilt",
-                "transport_2-Tilt-Loading",
-                "increment_NextSet"
-            ]
-        }
-    ],
-    "Day11-Passage": [
-        {
-            "throughput": 4,
-            "workflow": [
-                "hhsHeat_38",
-                "transport_2-Loading-Tilt",
-                "pipetting_12000-Media-Tilt-Waste",
-                "pipetting_2300-Media-Tilt-Waste",
-                "pipetting_4000-PBS-Res-Tilt",
-                "sway_15seconds",
-                "pipetting_4000-PBS-Tilt-Waste",
-                "pipetting_2300-Media-Tilt-Waste",
-                "pipetting_5000-TrypLE-Res-Tilt",
-                "transport_2-Tilt-HHS",
-                "hhsShake_250",
-                "timerStartHHS_450",
-                "timerWaitFor_HHS",
-                "pipetting_5000-Media-Res-HHS",
-                "hhsShake_450",
-                "timerStartHHS_250",
-                "timerWaitFor_HHS",
-                "transport_2-HHS-Tilt",
-                "sway_25seconds",
-                "increment_NextSet"
-            ]
-        }
-    ],
-    "Day13-Passage": [
-        {
-            "throughput": 4,
-            "workflow": [
-                "hhsHeat_38",
-                "transport_2-Loading-Tilt",
-                "pipetting_12000-Media-Tilt-Waste",
-                "pipetting_2300-Media-Tilt-Waste",
-                "pipetting_4000-PBS-Res-Tilt",
-                "sway_15seconds",
-                "pipetting_4000-PBS-Tilt-Waste",
-                "pipetting_2300-Media-Tilt-Waste",
-                "pipetting_5000-TrypLE-Res-Tilt",
-                "transport_2-Tilt-HHS",
-                "hhsShake_250",
-                "timerStartHHS_450",
-                "timerWaitFor_HHS",
-                "pipetting_5000-Media-Res-HHS",
-                "hhsShake_450",
-                "timerStartHHS_600",
-                "timerWaitFor_HHS",
-                "transport_2-HHS-Tilt",
-                "sway_25seconds",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]

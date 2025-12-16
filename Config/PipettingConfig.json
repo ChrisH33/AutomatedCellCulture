@@ -260,10 +260,10 @@
             "intDispenseMixVolume": 0
         }
     ],
-    "pipetting_10000-Cell-Tilt-Falcon": [
+    "10000-Cell-Tilt-Falcon": [
             {
             "str1": "===== Tips =====",
-            "intTransferVolume": 5000,
+            "intTransferVolume": 10000,
             "blnFreshTipsPerPipette": false,
             "blnEjectTipsOnCompletion": true,
             "intTipSize": 4000,
@@ -271,17 +271,17 @@
 
             "str3": "===== Source =====",
             "strSource": "AutoFlask_Tilt",
-            "blnSourceIncrement": false,
+            "blnSourceIncrement": true,
             "intAspirateLLD": 0,
             "intAspirateSubmerge": 0,
             "intAspirateHeight": 0.2,
             "intAspirateRetract": 18.1,
-            "blnAspirateFollowing": 10,
+            "blnAspirateFollowing": 0,
             "intAspirateMixCycles": 0,
             "intAspirateMixVolume": 0,
 
             "str4": "===== Destination =====",
-            "strDestination": "Falcon_Pool",
+            "strDestination": "SMP_CAR_12Stack_0001",
             "blnDestinationIncrement": false,
             "intDispenseLLD": 0,
             "intDispenseSubmerge": 0,
@@ -323,8 +323,7 @@
             "intDispenseMixCycles": 0,
             "intDispenseMixVolume": 0
         }],
-
-    "SeedingVolume-Tilt_HHS": [
+    "SeedingVolume-Falcon_HHS": [
             {
             "str1": "===== Tips =====",
             "intTransferVolume": "SeedingVolume",
@@ -334,7 +333,7 @@
             "strLiquidClass": "4mlTF_Water_DispenseJet_Empty_ReagentWaste",
 
             "str3": "===== Source =====",
-            "strSource": "AutoFlask_Tilt",
+            "strSource": "SMP_CAR_12Stack_0001",
             "blnSourceIncrement": true,
             "intAspirateLLD": 0,
             "intAspirateSubmerge": 0,
@@ -357,6 +356,7 @@
         }
 
     ],
+
     "Aliquot-Tilt-Strip": [
             {
             "str1": "===== Tips =====",
