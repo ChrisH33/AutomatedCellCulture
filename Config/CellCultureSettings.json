@@ -196,7 +196,7 @@
                 "hhsShake_450",
                 "timerStartHHS_250",
                 "timerWaitFor_HHS",
-                "transport_2-HHS-Tilt",
+                "transport_2-HHS-Loading",
                 "sway_25seconds",
             
                 
@@ -233,7 +233,7 @@
                 "cellDilutionCalc_SeedingVolume",
                 "pipetting_SeedingVolume-Media-HHS",
                 "pipetting_SeedingVolume-Falcon_HHS",
-                "transport_2-HHS-Tilt",
+                "transport_2-HHS-Loading",
                 "endMethod_endMethod"
             ]
         }
