@@ -142,6 +142,8 @@
         "Day4",
         "Day7-13",
         "Day15",
+        "Day5.1",
+        "Day5.2",
         "Aliquot-Test"
     ],
     "Day4": [
@@ -167,15 +169,13 @@
                 "timerWaitFor_HHS",
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
-            
-                
                 "pipetting_10000-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
         }
     ],
-    "Day5": [
+    "Day5.1": [
         {
             "throughput": 1,
             "workflow": [
@@ -196,11 +196,24 @@
                 "hhsShake_450",
                 "timerStartHHS_250",
                 "timerWaitFor_HHS",
-                "transport_2-HHS-Loading",
+                "transport_2-HHS-Tilt",
                 "sway_25seconds",
-            
-                
-                "FINISH ME"
+                "pipetting_10000-Cell-Tilt-Falcon",
+                "transport_2-Tilt-Loading",
+                "increment_NextSet"
+            ]
+        }
+    ],
+    "Day5.2": [
+        {
+            "throughput": 2,
+            "workflow": [
+                "transport_2-Loading-HHS",
+                "cellDilutionCalc_SeedingVolume",
+                "pipetting_SeedingVolume-Media-HHS",
+                "pipetting_SeedingVolume-Falcon_HHS",
+                "transport_2-HHS-Loading",
+                "endMethod_endMethod"
             ]
         }
     ],
@@ -260,7 +273,7 @@
                 "timerStartHHS_250",
                 "timerWaitFor_HHS",
                 "transport_2-HHS-Tilt",
-                "sway_25seconds",         
+                "sway_25seconds",
                 "pipetting_10000-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
