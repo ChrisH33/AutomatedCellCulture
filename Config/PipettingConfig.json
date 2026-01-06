@@ -382,9 +382,9 @@
             "blnDestinationIncrement": true,
             "intDispenseLLD": 0,
             "intDispenseSubmerge": 0,
-            "intDispenseHeight": 2,
+            "intDispenseHeight": 4,
             "intDispenseRetract": 15,
-            "blnDispenseFollowing": 0,
+            "blnDispenseFollowing": 1,
             "intDispenseMixCycles": 0,
             "intDispenseMixVolume": 0
         }

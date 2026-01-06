@@ -311,6 +311,7 @@
             "workflow": [
                 "transport_2-Loading-Tilt",
                 "pipetting_Aliquot-Tilt-Strip",
+                "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
         }
