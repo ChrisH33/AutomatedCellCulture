@@ -28,6 +28,7 @@
  namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
  namespace _Method { #include "Load Instructions (All)\\load_instructions\\load_instructions.hs_" } 
 #include "AdherentCellCulture.res"
+ namespace _Method { #include "load_instructions_v3.0.hs_" } 
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 variable blnTestingMode;
 variable blnScaps_State;
@@ -100,6 +101,7 @@ PARALLELSWAY::_InitLibrary();
 SIASCENTRIFUGE::_InitLibrary();
 LOOKUP::_InitLibrary();
 LOAD_INSTRUCTIONS::_InitLibrary();
+LOAD_INSTRUCTIONS_V3_0::_InitLibrary();
 ::RegisterAbortHandler( "OnAbort");
 // }} ""
 // {{ 1 1 0 "8df7840b_8e4b_4d92_a67abaf6bee52b93" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
@@ -199,15 +201,17 @@ TRACELEVEL::Trace_02(TRACE_LEVEL_DEBUG, Translate("-- blnCentrifuge_State: "), b
 // {{ 32 1 0 "fa66eb02_b978_454d_82227e40b89f7a51" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
 // }} ""
-// {{{ 33 1 0 "f71b6cab_8db8_4cb6_bb1668da2c01473c" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
+/* {{ 1 "" "0" */ if(0){  /* }} "" */
+// {{{ 33 1 0 "5b339b86_5bbe_4a24_8e72ea86be3abe12" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
 SANGERGENERAL::ReloadTips(ML_STAR, Translate("TipCounter_4mLFiltered"), 0);
 // }} ""
 // {{{ 34 1 0 "c7126c7d_0e07_4031_9f3025b5da201c50" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
 SANGERGENERAL::ReloadTips(ML_STAR, Translate("TipCounter_1mLFiltered"), 0);
 // }} ""
-// {{{ 35 1 0 "dc2ef7b2_2f7a_4056_bf5f8cbb667ad576" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
+// {{{ 35 1 0 "961863ae_3db3_4ba8_80ed26ad1ee6a2f5" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
 SANGERGENERAL::ReloadTips(ML_STAR, Translate("TipCounter_300uLSlim"), 0);
 // }} ""
+/* {{ 1 "" "1" */ } /* }} "" */
 // {{ 36 1 0 "6e68660f_2f6a_450b_9914b2243dfc6733" "{B31F3532-5D80-11d4-A5EB-0050DA737D89}"
 {
 loopCounter1 = 0;
@@ -798,8 +802,9 @@ PARALLELSWAY::_ExitLibrary();
 SIASCENTRIFUGE::_ExitLibrary();
 LOOKUP::_ExitLibrary();
 LOAD_INSTRUCTIONS::_ExitLibrary();
+LOAD_INSTRUCTIONS_V3_0::_ExitLibrary();
 // }} ""
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=Hamilton$$valid=0$$time=2026-01-06 14:17$$checksum=fa76506a$$length=087$$
+// $$author=ta16$$valid=0$$time=2026-01-06 16:55$$checksum=3788f5cd$$length=083$$
