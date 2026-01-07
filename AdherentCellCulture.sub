@@ -9214,9 +9214,7 @@ private variable _loopCounter3;
 private variable _strPositionID;
 private variable _strLabwareID;
 private variable _rtnValue;
-private variable t_intNumberOfTips_300;
 private variable l_strLoadingPicture;
-private variable t_strTipCounter_300;
 // {{ 5 "D_LoadInstructions" "InitLocals"
 // }} ""
 // {{ 920 1 0 "911e935b_5422_447d_b67024ce04e490e0" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
@@ -9339,11 +9337,11 @@ TRACELEVEL::Trace_02(TRACE_LEVEL_RELEASE, Translate(">> Reset Deck Layout"), Tra
 // {{ 956 1 0 "67488a02_ede2_4616_8d1a40eb6b5db015" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
 // }} ""
-// {{{ 957 1 0 "ed385c5c_ef4d_4f97_87d66401e981344c" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
-LOAD_INSTRUCTIONS_V3_0::Load_instructions_tips_WithImage(ML_STAR, ML_STAR.Tips_4mLFiltered, 4000, 5, l_strLoadingPicture, Translate("TipCounter_4mLFiltered"), 1, 0, 0);
+// {{{ 957 1 0 "280d6ba0_417d_4cd3_912eeec73253294d" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
+LOAD_INSTRUCTIONS::load_instructions_tips(ML_STAR, ML_STAR.Tips_4mLFiltered, 4000, 5, Translate("TipCounter_4mLFiltered"), 1);
 // }} ""
-// {{{ 958 1 0 "b12b0560_f413_4d11_a55c40711108a4f3" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
-LOAD_INSTRUCTIONS_V3_0::Load_instructions_tips_WithImage(ML_STAR, ML_STAR.Tips_300uLSlim, 300, 5, l_strLoadingPicture, Translate("TipCounter_300uLSlim"), 1, 0, 0);
+// {{{ 958 1 0 "f515ccf2_970a_4420_997860555f984967" "{7C4EF7A7-39BE-406a-897F-71F3A35B4093}"
+LOAD_INSTRUCTIONS::load_instructions_tips(ML_STAR, ML_STAR.Tips_300uLSlim, 300, 5, Translate("TipCounter_300uLSlim"), 1);
 // }} ""
 // {{ 959 1 0 "9b5160e9_4a20_4dd9_ab9d1ee5be0fd0b0" "{F07B0071-8EFC-11d4-A3BA-002035848439}"
 
@@ -13398,4 +13396,4 @@ SeqResetSequenceIndexes(i_seq);
 }
 // }} ""
 /* {{ 2 "SubmethodInsertLine" "" */ // }} ""
-// $$author=ta16$$valid=0$$time=2026-01-06 16:55$$checksum=54e165e1$$length=083$$
+// $$author=Hamilton$$valid=0$$time=2026-01-07 10:40$$checksum=49a44ab8$$length=087$$
