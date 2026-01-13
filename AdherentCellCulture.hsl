@@ -9,7 +9,6 @@
  namespace _Method { #include "HSLSeqLib.hsl" } 
  namespace _Method { #include "HSLExtensions\\Array.hsl" } 
  namespace _Method { #include "HSLDevLib.hsl" } 
- namespace _Method { #include "WSI\\TraceArray\\TraceArray.hs_" } 
  namespace _Method { #include "WSI\\SCAP_STARplus\\SCAP_STARplus.hs_" } 
  namespace _Method { #include "WSI\\JSONSearch\\JSONSearch.hs_" } 
  namespace _Method { #include "ASWStandard\\TraceLevel\\TraceLevel.hsl" } 
@@ -25,10 +24,12 @@
  namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifuge.hsl" } 
  namespace _Method { #include "MLSTARLiquidClassLib.hsl" } 
  namespace _Method { #include "lookup.hs_" } 
- namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
  namespace _Method { #include "Load Instructions (All)\\load_instructions\\load_instructions.hs_" } 
 #include "AdherentCellCulture.res"
+ namespace _Method { #include "WSI\\TraceArray\\TraceArray.hs_" } 
+ namespace _Method { #include "HSL Sias Centrifuge\\HSLSiasCentrifugeEnums.hsl" } 
  namespace _Method { #include "load_instructions_v3.0.hs_" } 
+ namespace _Method { #include "HSLTipCountingLib.hsl" } 
 /* {{ 2 "LibraryInsertLine" "" */ // }} ""
 variable blnTestingMode;
 variable blnScaps_State;
@@ -63,6 +64,8 @@ variable arrBarcodes_Dest[];
 variable rtn;
 variable arrUniqueBarcodes[];
 variable _intMaxPlateNum;
+variable TipCounter_4mLFiltered;
+variable TipCounter_300uLSlim;
 /* {{ 2 "VariableInsertLine" "" */ // }} ""
 // {{ 2 "TemplateIncludeBlock" ""
  namespace _Method { #include "HSLMETEDLib.hs_" } 
@@ -94,13 +97,13 @@ PTL::SetLoadingStateDefault("RecoveryOptionDefault", 0);
 PTL::SetLoadingStateDefault("KitLotCheckEnabled", hslFalse);
 SANGERGENERAL::_InitLibrary();
 UNIQUE_MEMBERS::_InitLibrary();
-TRACEARRAY::_InitLibrary();
 SCAP_STARPLUS::_InitLibrary();
 JSONSEARCH::_InitLibrary();
 PARALLELSWAY::_InitLibrary();
 SIASCENTRIFUGE::_InitLibrary();
 LOOKUP::_InitLibrary();
 LOAD_INSTRUCTIONS::_InitLibrary();
+TRACEARRAY::_InitLibrary();
 LOAD_INSTRUCTIONS_V3_0::_InitLibrary();
 ::RegisterAbortHandler( "OnAbort");
 // }} ""
@@ -795,16 +798,16 @@ SIASCENTRIFUGE::Terminate(121);
 // {{ 2 "AutoExitBlock" ""
 SANGERGENERAL::_ExitLibrary();
 UNIQUE_MEMBERS::_ExitLibrary();
-TRACEARRAY::_ExitLibrary();
 SCAP_STARPLUS::_ExitLibrary();
 JSONSEARCH::_ExitLibrary();
 PARALLELSWAY::_ExitLibrary();
 SIASCENTRIFUGE::_ExitLibrary();
 LOOKUP::_ExitLibrary();
 LOAD_INSTRUCTIONS::_ExitLibrary();
+TRACEARRAY::_ExitLibrary();
 LOAD_INSTRUCTIONS_V3_0::_ExitLibrary();
 // }} ""
 // {{{ 5 "main" "End"
 } }
 // }} ""
-// $$author=Hamilton$$valid=0$$time=2026-01-07 10:40$$checksum=77d21880$$length=087$$
+// $$author=ta16$$valid=0$$time=2026-01-13 11:53$$checksum=37bd018f$$length=083$$

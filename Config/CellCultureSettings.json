@@ -170,6 +170,7 @@
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
                 "pipetting_10000-Cell-Tilt-Falcon",
+                "pipetting_3000-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
@@ -310,9 +311,10 @@
             "throughput": 2,
             "workflow": [
                 "transport_2-Loading-Tilt",
+                "pipetting_Aliquot-Falcon-Strip",
                 "pipetting_Aliquot-Tilt-Strip",
                 "transport_2-Tilt-Loading",
-                "increment_NextSet"
+                "endMethod_endMethod"
             ]
         }
     ]
