@@ -138,13 +138,11 @@
         "Media-Change",
         "Day13-Passage",
         "Day11-Passage",
-        "Centrifuge-Test",
         "Day4",
         "Day7-13",
         "Day15",
         "Day5.1",
-        "Day5.2",
-        "Aliquot-Test"
+        "Day5.2"
     ],
     "Day4": [
         {
@@ -170,7 +168,7 @@
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
                 "pipetting_10000-Cell-Tilt-Falcon",
-                "pipetting_3000-Cell-Tilt-Falcon",
+                "pipetting_2300-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
@@ -200,6 +198,7 @@
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
                 "pipetting_10000-Cell-Tilt-Falcon",
+                "pipetting_2300-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
@@ -242,6 +241,7 @@
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
                 "pipetting_10000-Cell-Tilt-Falcon",
+                "pipetting_2300-Cell-Tilt-Falcon",
                 "transport_2-Loading-HHS",
                 "transport_2-Tilt-Loading",
                 "cellDilutionCalc_SeedingVolume",
@@ -276,6 +276,7 @@
                 "transport_2-HHS-Tilt",
                 "sway_25seconds",
                 "pipetting_10000-Cell-Tilt-Falcon",
+                "pipetting_2300-Cell-Tilt-Falcon",
                 "transport_2-Tilt-Loading",
                 "increment_NextSet"
             ]
@@ -310,10 +311,7 @@
         {
             "throughput": 2,
             "workflow": [
-                "transport_2-Loading-Tilt",
                 "pipetting_Aliquot-Falcon-Strip",
-                "pipetting_Aliquot-Tilt-Strip",
-                "transport_2-Tilt-Loading",
                 "endMethod_endMethod"
             ]
         }

@@ -40,7 +40,7 @@
     "2-HHS-Tilt": [
         {
             "blnToolType": true,
-            "blnParkAfterUse": false,
+            "blnParkAfterUse": true,
             "intThroughput": 2,
             "blnCheckOnPickup": false,
             "blnCheckOnPlace": false,

@@ -292,10 +292,10 @@
             "intDispenseMixVolume": 0
         }
     ],
-    "3000-Cell-Tilt-Falcon": [
+    "2300-Cell-Tilt-Falcon": [
         {
             "str1": "===== Tips =====",
-            "intTransferVolume": 3000,
+            "intTransferVolume": 2300,
             "blnFreshTipsPerPipette": false,
             "blnEjectTipsOnCompletion": true,
             "intTipSize": 300,
